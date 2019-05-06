@@ -1,0 +1,98 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url = "http://files.minecraftforge.net/maven" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+        classpath 'com.github.jengelman.gradle.plugins:shadow:4.0.1'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle.forge'
+apply plugin: 'com.github.johnrengelman.shadow'
+apply plugin: 'java'
+
+def versionObj = new Version(major: 0, minor: 2, revision: 4)
+
+version = versionObj.toString()
+group = "com.wynntils"
+archivesBaseName = "Wynntils"
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+compileJava.options.encoding = 'UTF-8'
+
+minecraft {
+    version = "1.12.2-14.23.5.2768"
+    runDir = "run"
+
+    mappings = "stable_39"
+    makeObfSourceJar = false
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+configurations {
+    embed
+    compile.extendsFrom(embed)
+}
+
+dependencies {
+    embed fileTree(dir: 'lib', include: ['*.jar'])
+}
+
+processResources {
+    inputs.property "description", "The best Wynncraft mod you'll probably find!\nBuild " + versionObj.getBuild()
+    inputs.property "version", versionObj.toVersion()
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+
+        expand 'description':"The best Wynncraft mod you'll probably find!\nBuild " + versionObj.getBuild(), 'version':versionObj.toVersion()
+    }
+}
+
+jar {
+    from configurations.embed.collect { it.isDirectory() ? it : zipTree(it) }
+    manifest {
+        attributes 'FMLAT': 'wynntils_at.cfg'
+    }
+}
+
+reobfJar {
+    dependsOn shadowJar
+}
+
+shadowJar {
+    baseName = archivesBaseName + "-" + version
+    classifier = null
+    version = null
+    configurations = [project.configurations.compile]
+    relocate "org.slf4j", "cf.wynntils.relocate.org.slf4j"
+    relocate "org.json", "cf.wybbtuls.relocate.org.json"
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.4'
+}
+
+class Version {
+    static String major, minor, revision
+
+    static String getBuild() {
+        System.getenv("BUILD_NUMBER") ?: System.getProperty("BUILD_NUMBER") ?: "DEV"
+    }
+
+    String toVersion() {
+        "${major}.${minor}.${revision}"
+    }
+
+    String toString() {
+        "${major}.${minor}.${revision}_$build"
+    }
+}

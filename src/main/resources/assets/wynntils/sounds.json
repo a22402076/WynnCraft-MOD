@@ -1,0 +1,18 @@
+{
+  "horn": {
+    "sounds": [
+      {
+        "name": "wynntils:horn",
+        "stream": false
+      }
+    ]
+  },
+  "drum": {
+    "sounds": [
+      {
+        "name": "wynntils:drum",
+        "stream": false
+      }
+    ]
+  }
+}
