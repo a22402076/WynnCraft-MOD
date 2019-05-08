@@ -134,10 +134,10 @@ public class WebManager {
 
     public static void checkForUpdates() {
         if (Reference.developmentEnvironment) {
-            Reference.LOGGER.info("An update check would have occurred, but you are in a development environment.");
+            Reference.LOGGER.info("更新失敗:");
+            Reference.LOGGER.info("此版本為開發版");
             return;
         }
-        updateProfile = new UpdateProfile();
     }
 
     public static void setupUserAccount() {

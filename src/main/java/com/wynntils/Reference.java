@@ -14,7 +14,7 @@ public class Reference {
     public static final String MOD_ID = "wynntils";
     public static final String NAME = "Wynntils";
     public static final String MINECRAFT_VERSIONS = "1.12,1.12.2";
-    public static String VERSION = "";
+    public static String VERSION = "2.0.4";
     public static int BUILD_NUMBER = -1;
     public static final File MOD_STORAGE_ROOT = new File("wynntils");
     public static final File MOD_ASSETS_ROOT = new File(MOD_STORAGE_ROOT + "\\assets");
@@ -43,6 +43,6 @@ public class Reference {
     public static boolean onWars = false;
     public static boolean onBeta = false;
     public static boolean onLobby = false;
-    public static boolean developmentEnvironment = false;
+    public static boolean developmentEnvironment = true;
 
 }
