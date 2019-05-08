@@ -35,9 +35,9 @@ public class ClientEvents implements Listener {
 
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public void onChatRecieved(ClientChatReceivedEvent e) {
-        if (e.getMessage().getFormattedText().startsWith(TextFormatting.DARK_RED + "[Info] ") && ChatConfig.INSTANCE.filterWynncraftInfo) {
+        if (e.getMessage().getFormattedText().startsWith(TextFormatting.DARK_RED + "[資訊] ") && ChatConfig.INSTANCE.filterWynncraftInfo) {
             e.setCanceled(true);
-        } else if (e.getMessage().getFormattedText().startsWith(TextFormatting.GRAY + "[You are now entering") && ChatConfig.INSTANCE.filterTerritoryEnter) {
+        } else if (e.getMessage().getFormattedText().startsWith(TextFormatting.GRAY + "[你正進入") && ChatConfig.INSTANCE.filterTerritoryEnter) {
             e.setCanceled(true);
         }
     }

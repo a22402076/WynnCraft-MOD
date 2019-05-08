@@ -18,22 +18,22 @@ import java.util.ArrayList;
 public class ChatConfig extends SettingsClass {
     public static ChatConfig INSTANCE;
 
-    @Setting(displayName = "聊天室 時間戳記", description = "聊天訊息前附加時間戳記嗎？")
+    @Setting(displayName = "時間戳記", description = "聊天訊息前附加時間戳記嗎？")
     public boolean addTimestampsToChat = false;
 
     @Setting(displayName = "透明聊天室", description = "聊天窗口要透明的嗎?")
     public boolean transparent = false;
 
-    @Setting(displayName = "Chat Timestamp Format", description = "How should the timestamps be displayed?\n\n§8This has no effect if chat timestamps are disabled.")
+    @Setting(displayName = "時間戳記 格式", description = "How should the timestamps be displayed?\n\n§8This has no effect if chat timestamps are disabled.")
     public String timestampFormat = "HH:mm:ss";
 
-    @Setting(displayName = "Chat Mentions", description = "Should a sound play when your username appears in chat?")
+    @Setting(displayName = "標註", description = "Should a sound play when your username appears in chat?")
     public boolean allowChatMentions = true;
 
-    @Setting(displayName = "Chat Spam Filter", description = "Should repeating messages stack rather than flood the chat?")
+    @Setting(displayName = "刷頻過濾器", description = "Should repeating messages stack rather than flood the chat?")
     public boolean blockChatSpamFilter = true;
 
-    @Setting(displayName = "Filter Info Messages", description = "Should Wynncraft Info messages be filtered?\n\n§8Messages starting with §4[Info]§8 will no longer appear in chat.")
+    @Setting(displayName = "篩選[INFO]訊息", description = "Should Wynncraft Info messages be filtered?\n\n§8Messages starting with §4[Info]§8 will no longer appear in chat.")
     public boolean filterWynncraftInfo = true;
 
     @Setting(displayName = "Filter Territory Enter", description = "Should territory enter messages be displayed in chat?\n\n§8Territory enter messages look like §7[You are now entering Detlas]§8.")
