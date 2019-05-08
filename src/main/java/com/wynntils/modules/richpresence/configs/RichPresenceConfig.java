@@ -13,10 +13,10 @@ import com.wynntils.modules.richpresence.events.ServerEvents;
 public class RichPresenceConfig extends SettingsClass {
     public static RichPresenceConfig INSTANCE;
 
-    @Setting(displayName = "顯示職業資訊", description = "Should Rich Presence display basic information about the class you're using?")
+    @Setting(displayName = "顯示職業資訊", description = "是否在Discord遊戲狀態顯示你所使用的職業資訊")
     public boolean showUserInformation = true;
     
-    @Setting(displayName = "啟用Discord狀態顯示", description = "Should the mod enable Rich Presence on Discord?")
+    @Setting(displayName = "啟用Discord狀態顯示", description = "是否取消使用Discord遊戲狀態顯示")
     public boolean enableRichPresence = true;
 
     @Override
