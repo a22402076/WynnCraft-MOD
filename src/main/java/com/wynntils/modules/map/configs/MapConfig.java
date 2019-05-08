@@ -18,7 +18,7 @@ import java.util.HashMap;
 public class MapConfig extends SettingsClass {
     public static MapConfig INSTANCE;
 
-    @Setting(displayName = "Enable Minimap", description = "Should a minimap be displayed?", order = 0)
+    @Setting(displayName = "啟用小地圖", description = "Should a minimap be displayed?", order = 0)
     public boolean enabled = true;
 
     @Setting(displayName = "Minimap Shape", description = "Should the minimap be a square or a circle?", order = 2)
