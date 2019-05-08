@@ -158,6 +158,7 @@ public class ServerEvents implements Listener {
     public void commandReplacements(ClientChatEvent e) {
         if(e.getMessage().startsWith("/tell")) e.setMessage(e.getMessage().replaceFirst("/tell", "/msg"));
         else if(e.getMessage().startsWith("/xp")) e.setMessage(e.getMessage().replaceFirst("/xp", "/guild xp"));
+        else if(e.getMessage().startsWith("/m")) e.setMessage(e.getMessage().replaceFirst("/m", "/msg"));
     }
 
     /**

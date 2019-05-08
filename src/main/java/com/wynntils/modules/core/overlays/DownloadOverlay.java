@@ -32,7 +32,7 @@ public class DownloadOverlay extends Overlay {
     public static int size = 53;
 
     public DownloadOverlay() {
-        super("Downloading",20,20,true,1.0f,0.0f,0,0, null);
+        super("下載中",20,20,true,1.0f,0.0f,0,0, null);
     }
 
     @Override
@@ -47,14 +47,14 @@ public class DownloadOverlay extends Overlay {
                     timeToRestart = System.currentTimeMillis() + 10000;
                 }
                 if(timeToRestart - System.currentTimeMillis() <= 0) {
-                    mc.shutdown();
+
                     return;
                 }
 
                 drawRect(brackgroundRed, -172,0 - size, 0, 52 - size);
                 drawRect(boxRed, -170,0 - size, 0, 50 - size);
-                drawString("Your game will be closed in", -84, 15 - size, CommonColors.WHITE, SmartFontRenderer.TextAlignment.MIDDLE, SmartFontRenderer.TextShadow.OUTLINE);
-                drawString(((timeToRestart - System.currentTimeMillis()) / 1000) + " seconds", -84, 25 - size, CommonColors.RED, SmartFontRenderer.TextAlignment.MIDDLE, SmartFontRenderer.TextShadow.OUTLINE);
+                drawString("遊戲設置中", -84, 15 - size, CommonColors.WHITE, SmartFontRenderer.TextAlignment.MIDDLE, SmartFontRenderer.TextShadow.OUTLINE);
+                drawString(((timeToRestart - System.currentTimeMillis()) / 1000) + " 秒", -84, 25 - size, CommonColors.RED, SmartFontRenderer.TextAlignment.MIDDLE, SmartFontRenderer.TextShadow.OUTLINE);
                 return;
             }
 
@@ -75,7 +75,7 @@ public class DownloadOverlay extends Overlay {
             drawRect(progress, -160, 20 - size, ((lastPercent * (-10 + 160)) + 100 * -160) / 100, 36 - size);
             drawString(lastPercent + "%", -84, 25 - size, CommonColors.LIGHT_GRAY, SmartFontRenderer.TextAlignment.MIDDLE, SmartFontRenderer.TextShadow.OUTLINE);
 
-            drawString((DownloaderManager.getQueueSizeLeft()) + " files left", -84, 40 - size, CommonColors.WHITE, SmartFontRenderer.TextAlignment.MIDDLE, SmartFontRenderer.TextShadow.OUTLINE);
+            drawString("剩下" + (DownloaderManager.getQueueSizeLeft()) + " 個檔案", -84, 40 - size, CommonColors.WHITE, SmartFontRenderer.TextAlignment.MIDDLE, SmartFontRenderer.TextShadow.OUTLINE);
         }
 
         if (size > 0 && DownloaderManager.currentPhase != DownloadPhase.WAITING) {

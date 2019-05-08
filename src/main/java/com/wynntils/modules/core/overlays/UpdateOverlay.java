@@ -175,7 +175,6 @@ public class UpdateOverlay extends Overlay {
                 }
 
                 File newJar = new File(Reference.MOD_STORAGE_ROOT + "/updates", jarName);
-                Utils.copyFile(newJar, oldJar);
                 newJar.delete();
                 Reference.LOGGER.info("Successfully applied Wynntils update.");
             } catch (IOException ex) {
