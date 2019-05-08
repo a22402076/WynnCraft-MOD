@@ -36,7 +36,7 @@ public class ChatConfig extends SettingsClass {
     @Setting(displayName = "篩選[INFO]訊息", description = "Should Wynncraft Info messages be filtered?\n\n§8Messages starting with §4[Info]§8 will no longer appear in chat.")
     public boolean filterWynncraftInfo = true;
 
-    @Setting(displayName = "Filter Territory Enter", description = "Should territory enter messages be displayed in chat?\n\n§8Territory enter messages look like §7[You are now entering Detlas]§8.")
+    @Setting(displayName = "篩選 進入區域訊息", description = "Should territory enter messages be displayed in chat?\n\n§8Territory enter messages look like §7[You are now entering Detlas]§8.")
     public boolean filterTerritoryEnter = true;
 
     public boolean registeredDefaultTabs = false;

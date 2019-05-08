@@ -1,5 +1,5 @@
 /*
- *  * Copyright © Wynntils - 2019.
+ *  * Copyright ? Wynntils - 2019.
  */
 
 package com.wynntils.modules.richpresence.events;
@@ -76,7 +76,7 @@ public class ServerEvents implements Listener {
                 RichPresenceModule.getModule().getData().setLocation("Waiting");
                 if (!RichPresenceConfig.INSTANCE.enableRichPresence) return;
                 if (PlayerInfo.getPlayerInfo().getCurrentClass() != ClassType.NONE) {
-                    RichPresenceModule.getModule().getRichPresence().updateRichPresence("世界 " + Reference.getUserWorld().replace("WC", ""), "探索 Wynncraft 中", PlayerInfo.getPlayerInfo().getCurrentClass().toString().toLowerCase(), getPlayerInfo(), OffsetDateTime.now());
+                    RichPresenceModule.getModule().getRichPresence().updateRichPresence("\u4e16\u754c " + Reference.getUserWorld().replace("WC", ""), "\u63a2\u7d22 Wynncraft \u4e2d", PlayerInfo.getPlayerInfo().getCurrentClass().toString().toLowerCase(), getPlayerInfo(), OffsetDateTime.now());
                 }
             }
 
