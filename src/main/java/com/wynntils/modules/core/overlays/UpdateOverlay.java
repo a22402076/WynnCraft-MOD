@@ -164,23 +164,6 @@ public class UpdateOverlay extends Overlay {
     }
 
     public void copyUpdate(String jarName) {
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            try {
-                Reference.LOGGER.info("Attempting to apply Wynntils update.");
-                File oldJar = ModCore.jarFile;
-
-                if (oldJar == null || !oldJar.exists() || oldJar.isDirectory()) {
-                    Reference.LOGGER.warn("Old jar file not found.");
-                    return;
-                }
-
-                File newJar = new File(Reference.MOD_STORAGE_ROOT + "/updates", jarName);
-                newJar.delete();
-                Reference.LOGGER.info("Successfully applied Wynntils update.");
-            } catch (IOException ex) {
-                Reference.LOGGER.error("Unable to apply Wynntils update.", ex);
-            }
-        }));
     }
 
     public static boolean isDownloading() {
