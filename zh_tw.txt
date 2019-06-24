@@ -58,7 +58,7 @@ wynntils.config.map.enable_minimap.description=是否顯示小地圖？
 wynntils.config.map.minimap_shape.display_name=小地圖形狀
 wynntils.config.map.minimap_shape.description=你的小地圖要是圓形還是方形？
 wynntils.config.map.minimap_rotation.display_name=小地圖轉動
-wynntils.config.map.minimap_rotation.description=Should the minimap be locked facing north or rotate based on the direction you're facing?要將小地圖鎖面向北還是跟隨您的面向旋轉？
+wynntils.config.map.minimap_rotation.description=要將小地圖鎖面向北還是跟隨您的面向旋轉？
 wynntils.config.map.compass_directions.display_name=方位顯示
 wynntils.config.map.compass_directions.description=是否顯示方位 (N, E, S, W) 在小地圖上？
 wynntils.config.map.minimap_size.display_name=小地圖尺寸
@@ -135,11 +135,11 @@ wynntils.config.richpresence.display_path=Rich Presence
 wynntils.config.richpresence.show_information.display_name=顯示角色名稱
 wynntils.config.richpresence.show_information.description=是否讓 Rich Presence 顯示角色等基本訊息？
 wynntils.config.richpresence.enable.display_name=開啟 Rich Presence
-wynntils.config.richpresence.enable.description=是否在Discord上開啟 Rich Presence？
+wynntils.config.richpresence.enable.description=是否在Discord上啟用 Rich Presence？
 
 ## UTILITIES CONFIG ##
 wynntils.config.utils.display_path=Utilities
-wynntils.config.utils.daily_reminder.display_name=Daily Chest Reminder
+wynntils.config.utils.daily_reminder.display_name=每日箱子提示
 wynntils.config.utils.daily_reminder.description=Should a message notifying that you can claim your daily chest be sent upon joining a world?
 wynntils.config.utils.hide_potion.display_name=Hide Vanilla Active Potions Indicators
 wynntils.config.utils.hide_potion.description=Should the indicator for active potion effects (black squares) be hidden?
