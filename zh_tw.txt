@@ -88,7 +88,7 @@ wynntils.config.map.textures.minimap_style.description=你想要讓地圖用甚�
 wynntils.config.map.textures.pointer_style.display_name=標記點樣式
 wynntils.config.map.textures.pointer_style.description=你想要為你的標記點用甚麼材質呢？
 wynntils.config.map.textures.pointer_color.display_name=標記點顏色
-wynntils.config.map.textures.pointer_color.description=你想要為你的標記點用什麼顏色呢?\n\n§a點擊顏色箱子在色相環中選擇.
+wynntils.config.map.textures.pointer_color.description=你想要為你的標記點用什麼顏色呢？\n\n§a點擊顏色箱子在色相環中選擇.
 
 ## MAP TEXTURES TEXTURE TYPE ENUM CONFIG ##
 wynntils.config.map.textures.enum.texture_type.paper=紙張
@@ -111,19 +111,19 @@ wynntils.config.map.waypoints.compass_marker.description=Should a marker appear 
 ## MUSIC CONFIG ##
 wynntils.config.music.display_path=音樂
 wynntils.config.music.allow_music.display_name=音樂系統
-wynntils.config.music.allow_music.description=應該讓Wynntils覆蓋Wynncraft原有的音樂系統嗎??
+wynntils.config.music.allow_music.description=是否使用Wynntils覆蓋Wynncraft原有的音樂系統？
 wynntils.config.music.volume.display_name=基礎音量
-wynntils.config.music.volume.description=How loud should all soundtracks be?
+wynntils.config.music.volume.description=背景音量要多大？
 wynntils.config.music.background_volume.display_name=背景音量
 wynntils.config.music.background_volume.description=How loud should the soundtrack be when Minecraft is not focused on?
 
 ## QUESTBOOK CONFIG ##
 wynntils.config.questbook.display_path=任務書
 wynntils.config.questbook.allow_questbook.display_name=允許使用Wynntils任務書
-wynntils.config.questbook.allow_questbook.description=應該讓Wynntils覆蓋WynnCraft的任務書嗎?
+wynntils.config.questbook.allow_questbook.description=是否讓Wynntils覆蓋WynnCraft的任務書？
 wynntils.config.questbook.compass_follow.display_name=設定任務座標到羅盤上
 wynntils.config.questbook.compass_follow.description=Should the compass point towards given coordinates of quests?
-wynntils.config.questbook.search_click.display_name=搜尋欄位必須點擊
+wynntils.config.questbook.search_click.display_name=搜尋欄位點擊
 wynntils.config.questbook.search_click.description=Should you be required to click on the search bar before typing or be able to type in the search bar immediately after opening the quest book?
 wynntils.config.questbook.fuzzy_search.display_name=Fuzzy Search
 wynntils.config.questbook.fuzzy_search.description=Should a different search algorithm be used that allows searching for acronyms and abbreviations?
@@ -133,9 +133,9 @@ wynntils.config.questbook.scan_discoveries.description=Should discoveries be ana
 ## RICH PRESENCE CONFIG ##
 wynntils.config.richpresence.display_path=Rich Presence
 wynntils.config.richpresence.show_information.display_name=顯示角色名稱
-wynntils.config.richpresence.show_information.description=應該讓 Rich Presence 顯示基本的訊息,像是你的角色?
+wynntils.config.richpresence.show_information.description=是否讓 Rich Presence 顯示角色等基本訊息？
 wynntils.config.richpresence.enable.display_name=開啟 Rich Presence
-wynntils.config.richpresence.enable.description=應該讓模組在Discord上開啟 Rich Presence?
+wynntils.config.richpresence.enable.description=是否在Discord上開啟 Rich Presence？
 
 ## UTILITIES CONFIG ##
 wynntils.config.utils.display_path=Utilities
