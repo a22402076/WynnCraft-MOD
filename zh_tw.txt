@@ -9,8 +9,8 @@ wynntils.config.core.update_stream.display_name=更新狀態
 wynntils.config.core.update_stream.description=此模組要使用哪個狀態更新呢？\n\n§2Stable: §rThe mod will only update when a new version is released. Stable versions are generally more stable than Cutting Edge builds.\n\n§4Cutting Edge: §rThe mod will update whenever a new build is release. Cutting Edge builds will include features that are not yet in Stable versions and are currently in development but may also be less stable than Stable versions.
 wynntils.config.core.scroll_direction.display_name=Scroll Direction
 wynntils.config.core.scroll_direction.description=Which direction should your mouse scroll for the page to scroll down?
-wynntils.config.core.enable_changelog_on_update.display_name=Show Changelog
-wynntils.config.core.enable_changelog_on_update.description=Should the changelog of the recent update be displayed upon logging in after updating?
+wynntils.config.core.enable_changelog_on_update.display_name=更新日誌顯示
+wynntils.config.core.enable_changelog_on_update.description=是否在更新並登入後顯示最近的更新日誌？
 wynntils.config.core.selected_language.display_name=語言
 wynntils.config.core.selected_language.description=您要使用哪語言呢?
 
@@ -25,8 +25,8 @@ wynntils.config.core.enum.scroll_direction.down=下
 ## CHAT CONFIG ##
 wynntils.config.chat.display_path=聊天室
 wynntils.config.chat.add_timestamps_to_chat.display_name=聊天室時間軸
-wynntils.config.chat.add_timestamps_to_chat.description=Should chat messages have timestamps attached before the beginning of them?
-wynntils.config.chat.transparent.display_name=Transparent Chat
+wynntils.config.chat.add_timestamps_to_chat.description=是否在訊息開頭顯示時間？
+wynntils.config.chat.transparent.display_name=聊天室透明化
 wynntils.config.chat.transparent.description=Should the chat window be transparent?
 wynntils.config.chat.timestamp_format.display_name=Chat Timestamp Format
 wynntils.config.chat.timestamp_format.description=How should the timestamps be displayed? (This has no effect if chat timestamps are disabled.)
