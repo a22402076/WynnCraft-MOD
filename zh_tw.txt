@@ -12,7 +12,7 @@ wynntils.config.core.scroll_direction.description=Which direction should your mo
 wynntils.config.core.enable_changelog_on_update.display_name=更新日誌顯示
 wynntils.config.core.enable_changelog_on_update.description=是否在更新並登入後顯示最近的更新日誌？
 wynntils.config.core.selected_language.display_name=語言
-wynntils.config.core.selected_language.description=您要使用哪語言呢?
+wynntils.config.core.selected_language.description=您要使用哪語言呢？
 
 ## CORE UPDATE STREAM ENUM CONFIG ##
 wynntils.config.core.enum.update_stream.stable=Stblea
@@ -40,22 +40,22 @@ wynntils.config.chat.filter_territory_enter.display_name=地區進入訊息過�
 wynntils.config.chat.filter_territory_enter.description=聊天室是否顯示地區進入訊息？\n\n§8地區進入訊息看起來會像是 §7[You are now entering Detlas]§8.
 wynntils.config.chat.preset.display_name=Alter Chat Tab by Presets
 wynntils.config.chat.preset.description=Which pre-made selection of chat tabs should be used?\n\na - Global, Guild, Party\n\nb - Global, Shouts, Guild/Party, PMs\n\nvanilla - All
-wynntils.config.chat.clickable_invite.display_name=Clickable Party Invites
-wynntils.config.chat.clickable_invite.description=Should party invites provide a clickable command?
-wynntils.config.chat.clickable_coordinate.display_name=Clickable Coordinates
+wynntils.config.chat.clickable_invite.display_name=組隊邀請點擊
+wynntils.config.chat.clickable_invite.description=組隊邀請指令是否可點擊？
+wynntils.config.chat.clickable_coordinate.display_name=座標點擊標記
 wynntils.config.chat.clickable_coordinate.description=Should coordinates displayed in chat be clickable as a '/compass' command?
 
 ## CHAT PRESET ENUM CONFIG ##
 wynntils.config.chat.enum.preset.a=A
 wynntils.config.chat.enum.preset.b=B
-wynntils.config.chat.enum.preset.vanilla=Vanilla
+wynntils.config.chat.enum.preset.vanilla=原版
 
 ## MAP CONFIG ##
 wynntils.config.map.display_path=小地圖
 wynntils.config.map.enable_minimap.display_name=開啟小地圖
-wynntils.config.map.enable_minimap.description=Should a minimap be displayed?
+wynntils.config.map.enable_minimap.description=是否顯示小地圖？
 wynntils.config.map.minimap_shape.display_name=小地圖形狀
-wynntils.config.map.minimap_shape.description=你的小地圖要是圓形還是方形?
+wynntils.config.map.minimap_shape.description=你的小地圖要是圓形還是方形？
 wynntils.config.map.minimap_rotation.display_name=Minimap Rotation
 wynntils.config.map.minimap_rotation.description=Should the minimap be locked facing north or rotate based on the direction you're facing?
 wynntils.config.map.compass_directions.display_name=Show Compass Directions
