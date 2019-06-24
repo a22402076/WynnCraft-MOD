@@ -56,18 +56,18 @@ wynntils.config.map.enable_minimap.display_name=開啟小地圖
 wynntils.config.map.enable_minimap.description=是否顯示小地圖？
 wynntils.config.map.minimap_shape.display_name=小地圖形狀
 wynntils.config.map.minimap_shape.description=你的小地圖要是圓形還是方形？
-wynntils.config.map.minimap_rotation.display_name=Minimap Rotation
-wynntils.config.map.minimap_rotation.description=Should the minimap be locked facing north or rotate based on the direction you're facing?
-wynntils.config.map.compass_directions.display_name=Show Compass Directions
-wynntils.config.map.compass_directions.description=Should the cardinal directions (N, E, S, W) be displayed on the minimap?
+wynntils.config.map.minimap_rotation.display_name=小地圖轉動
+wynntils.config.map.minimap_rotation.description=Should the minimap be locked facing north or rotate based on the direction you're facing?要將小地圖鎖面向北還是跟隨您的面向旋轉？
+wynntils.config.map.compass_directions.display_name=方位顯示
+wynntils.config.map.compass_directions.description=是否顯示方位 (N, E, S, W) 在小地圖上？
 wynntils.config.map.minimap_size.display_name=小地圖尺寸
-wynntils.config.map.minimap_size.description=你的小地圖要多大呢??
-wynntils.config.map.only_north.display_name=Display Only North
-wynntils.config.map.only_north.description=Should only north be displayed on the minimap?
-wynntils.config.map.record_chest_tier.display_name=箱子記錄點紀錄中
-wynntils.config.map.record_chest_tier.description=哪一種階級的箱子是你要標記在地圖上的呢?\n\n§8這個模組也會順便紀錄比它的階級還要高的箱子.
+wynntils.config.map.minimap_size.description=你的小地圖要多大呢？
+wynntils.config.map.only_north.display_name=只顯示北方
+wynntils.config.map.only_north.description=是否只在小地圖上顯示北方？
+wynntils.config.map.record_chest_tier.display_name=箱子記錄點
+wynntils.config.map.record_chest_tier.description=你要在地圖上標記哪一階級的箱子呢？\n\n§8這個模組也會順便紀錄比它的階級還要高的箱子.
 wynntils.config.map.minimap_zoom.display_name=小地圖縮放
-wynntils.config.map.minimap_zoom.description=小地圖的縮放程度要多少?
+wynntils.config.map.minimap_zoom.description=小地圖的縮放程度要多少？
 
 ## MAP MAP FORMAT ENUM CONFIG ##
 wynntils.config.map.enum.map_format.square=正方形
@@ -83,29 +83,29 @@ wynntils.config.map.enum.chest_tier.none=不做標記
 ## MAP TEXTURES CONFIG ##
 wynntils.config.map.textures.display_path=地圖/材質
 wynntils.config.map.textures.minimap_style.display_name=小地圖材質
-wynntils.config.map.textures.minimap_style.description=你想要讓地圖用甚麼樣的材質??
+wynntils.config.map.textures.minimap_style.description=你想要讓地圖用甚麼樣的材質？
 wynntils.config.map.textures.pointer_style.display_name=標記點樣式
-wynntils.config.map.textures.pointer_style.description=你想要為你的標記點用甚麼材質呢?
+wynntils.config.map.textures.pointer_style.description=你想要為你的標記點用甚麼材質呢？
 wynntils.config.map.textures.pointer_color.display_name=標記點顏色
 wynntils.config.map.textures.pointer_color.description=你想要為你的標記點用什麼顏色呢?\n\n§a點擊顏色箱子在色相環中選擇.
 
 ## MAP TEXTURES TEXTURE TYPE ENUM CONFIG ##
-wynntils.config.map.textures.enum.texture_type.paper=Paper
+wynntils.config.map.textures.enum.texture_type.paper=紙張
 wynntils.config.map.textures.enum.texture_type.wynn=Wynn
-wynntils.config.map.textures.enum.texture_type.gilded=Gilded
+wynntils.config.map.textures.enum.texture_type.gilded=鍍金
 
 ## MAP TEXTURES POINTER TYPE ENUM CONFIG ##
-wynntils.config.map.textures.enum.pointer_type.arrow=Arrow
-wynntils.config.map.textures.enum.pointer_type.cursor=Cursor
-wynntils.config.map.textures.enum.pointer_type.narrow=Narrow
-wynntils.config.map.textures.enum.pointer_type.round=Round
-wynntils.config.map.textures.enum.pointer_type.straight=Straight
-wynntils.config.map.textures.enum.pointer_type.triangle=Triangle
+wynntils.config.map.textures.enum.pointer_type.arrow=箭頭
+wynntils.config.map.textures.enum.pointer_type.cursor=圓點
+wynntils.config.map.textures.enum.pointer_type.narrow=窄箭頭
+wynntils.config.map.textures.enum.pointer_type.round=橢圓點
+wynntils.config.map.textures.enum.pointer_type.straight=直條
+wynntils.config.map.textures.enum.pointer_type.triangle=三角形
 
 ## MAP WAYPOINTS CONFIG ##
 wynntils.config.map.waypoints.display_path=Map/Waypoints
-wynntils.config.map.waypoints.compass_marker.display_name=Compass Marker
-wynntils.config.map.waypoints.compass_marker.description=Should a marker appear on the map where the compass is currently pointing towards?
+wynntils.config.map.waypoints.compass_marker.display_name=羅盤標記
+wynntils.config.map.waypoints.compass_marker.description=Should a marker appear on the map where the compass is currently pointing towards?地圖上是否顯示羅盤 (compass) 當前座標？
 
 ## MUSIC CONFIG ##
 wynntils.config.music.display_path=音樂
