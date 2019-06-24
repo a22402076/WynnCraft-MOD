@@ -1,4 +1,5 @@
 ﻿## CHINESE (TRADITIONAL)
+# Translated by: xWeiKuOuO,Dexmio,Tezzi_Ja
 #################
 # CONFIGURATION #
 #################
@@ -103,26 +104,26 @@ wynntils.config.map.textures.enum.pointer_type.straight=直條
 wynntils.config.map.textures.enum.pointer_type.triangle=三角形
 
 ## MAP WAYPOINTS CONFIG ##
-wynntils.config.map.waypoints.display_path=Map/Waypoints
+wynntils.config.map.waypoints.display_path=地圖/記錄點
 wynntils.config.map.waypoints.compass_marker.display_name=羅盤標記
 wynntils.config.map.waypoints.compass_marker.description=Should a marker appear on the map where the compass is currently pointing towards?地圖上是否顯示羅盤 (compass) 當前座標？
 
 ## MUSIC CONFIG ##
 wynntils.config.music.display_path=音樂
 wynntils.config.music.allow_music.display_name=音樂系統
-wynntils.config.music.allow_music.description=Should Wynncraft's music system be replaced by Wynntils'?
-wynntils.config.music.volume.display_name=Base Volume
+wynntils.config.music.allow_music.description=應該讓Wynntils覆蓋Wynncraft原有的音樂系統嗎??
+wynntils.config.music.volume.display_name=基礎音量
 wynntils.config.music.volume.description=How loud should all soundtracks be?
-wynntils.config.music.background_volume.display_name=Background Volume
+wynntils.config.music.background_volume.display_name=背景音量
 wynntils.config.music.background_volume.description=How loud should the soundtrack be when Minecraft is not focused on?
 
 ## QUESTBOOK CONFIG ##
-wynntils.config.questbook.display_path=Quest Book
-wynntils.config.questbook.allow_questbook.display_name=Allow Wynntils' Questbook
-wynntils.config.questbook.allow_questbook.description=Should Wynncraft's quest book be replaced by Wynntils'?
-wynntils.config.questbook.compass_follow.display_name=Set Quest Location to Compass
+wynntils.config.questbook.display_path=任務書
+wynntils.config.questbook.allow_questbook.display_name=允許使用Wynntils任務書
+wynntils.config.questbook.allow_questbook.description=應該讓Wynntils覆蓋WynnCraft的任務書嗎?
+wynntils.config.questbook.compass_follow.display_name=設定任務座標到羅盤上
 wynntils.config.questbook.compass_follow.description=Should the compass point towards given coordinates of quests?
-wynntils.config.questbook.search_click.display_name=Search Box Requires Click
+wynntils.config.questbook.search_click.display_name=搜尋欄位必須點擊
 wynntils.config.questbook.search_click.description=Should you be required to click on the search bar before typing or be able to type in the search bar immediately after opening the quest book?
 wynntils.config.questbook.fuzzy_search.display_name=Fuzzy Search
 wynntils.config.questbook.fuzzy_search.description=Should a different search algorithm be used that allows searching for acronyms and abbreviations?
@@ -132,9 +133,9 @@ wynntils.config.questbook.scan_discoveries.description=Should discoveries be ana
 ## RICH PRESENCE CONFIG ##
 wynntils.config.richpresence.display_path=Rich Presence
 wynntils.config.richpresence.show_information.display_name=顯示角色名稱
-wynntils.config.richpresence.show_information.description=Should Rich Presence display basic information about the class you're using?
-wynntils.config.richpresence.enable.display_name=Enable Rich Presence
-wynntils.config.richpresence.enable.description=Should the mod enable Rich Presence on Discord?
+wynntils.config.richpresence.show_information.description=應該讓 Rich Presence 顯示基本的訊息,像是你的角色?
+wynntils.config.richpresence.enable.display_name=開啟 Rich Presence
+wynntils.config.richpresence.enable.description=應該讓模組在Discord上開啟 Rich Presence?
 
 ## UTILITIES CONFIG ##
 wynntils.config.utils.display_path=Utilities
