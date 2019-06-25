@@ -8,7 +8,7 @@
 wynntils.config.core.display_path=核心
 wynntils.config.core.update_stream.display_name=更新狀態
 wynntils.config.core.update_stream.description=此模組要使用哪個狀態更新呢？\n\n§2Stable: §rThe mod will only update when a new version is released. Stable versions are generally more stable than Cutting Edge builds.\n\n§4Cutting Edge: §rThe mod will update whenever a new build is release. Cutting Edge builds will include features that are not yet in Stable versions and are currently in development but may also be less stable than Stable versions.
-wynntils.config.core.scroll_direction.display_name=Scroll Direction
+wynntils.config.core.scroll_direction.display_name=滑鼠滾動方向
 wynntils.config.core.scroll_direction.description=Which direction should your mouse scroll for the page to scroll down?
 wynntils.config.core.enable_changelog_on_update.display_name=更新日誌顯示
 wynntils.config.core.enable_changelog_on_update.description=是否在更新並登入後顯示最近的更新日誌？
