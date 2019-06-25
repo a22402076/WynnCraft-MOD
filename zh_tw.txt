@@ -133,14 +133,14 @@ wynntils.config.questbook.scan_discoveries.description=Should discoveries be ana
 ## RICH PRESENCE CONFIG ##
 wynntils.config.richpresence.display_path=Rich Presence
 wynntils.config.richpresence.show_information.display_name=顯示角色名稱
-wynntils.config.richpresence.show_information.description=是否讓 Rich Presence 顯示角色等基本訊息？
-wynntils.config.richpresence.enable.display_name=開啟 Rich Presence
-wynntils.config.richpresence.enable.description=是否在 Discord 上啟用 Rich Presence？
+wynntils.config.richpresence.show_information.description=是否讓詳細資訊顯示角色等基本訊息？
+wynntils.config.richpresence.enable.display_name=顯示詳細資訊
+wynntils.config.richpresence.enable.description=是否在 Discord 上啟用詳細資訊？
 
 ## UTILITIES CONFIG ##
 wynntils.config.utils.display_path=Utilities
 wynntils.config.utils.daily_reminder.display_name=每日箱子提示
-wynntils.config.utils.daily_reminder.description=是否在進入世界後提示可以領取每日箱子？
+wynntils.config.utils.daily_reminder.description=是否在進入世界後提示您能領取每日箱子？
 wynntils.config.utils.hide_potion.display_name=Hide Vanilla Active Potions Indicators
 wynntils.config.utils.hide_potion.description=Should the indicator for active potion effects (black squares) be hidden?
 wynntils.config.utils.add_class_server.display_name=主選單 Class & Server 按鍵
