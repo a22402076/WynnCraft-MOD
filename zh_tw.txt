@@ -120,7 +120,7 @@ wynntils.config.music.background_volume.description=How loud should the soundtra
 ## QUESTBOOK CONFIG ##
 wynntils.config.questbook.display_path=任務書
 wynntils.config.questbook.allow_questbook.display_name=允許使用Wynntils任務書
-wynntils.config.questbook.allow_questbook.description=是否讓Wynntils覆蓋WynnCraft的任務書？
+wynntils.config.questbook.allow_questbook.description=是否讓Wynntils取代WynnCraft的任務書？
 wynntils.config.questbook.compass_follow.display_name=設定任務座標到羅盤上
 wynntils.config.questbook.compass_follow.description=Should the compass point towards given coordinates of quests?
 wynntils.config.questbook.search_click.display_name=搜尋欄位點擊
@@ -135,23 +135,23 @@ wynntils.config.richpresence.display_path=Rich Presence
 wynntils.config.richpresence.show_information.display_name=顯示角色名稱
 wynntils.config.richpresence.show_information.description=是否讓 Rich Presence 顯示角色等基本訊息？
 wynntils.config.richpresence.enable.display_name=開啟 Rich Presence
-wynntils.config.richpresence.enable.description=是否在Discord上啟用 Rich Presence？
+wynntils.config.richpresence.enable.description=是否在 Discord 上啟用 Rich Presence？
 
 ## UTILITIES CONFIG ##
 wynntils.config.utils.display_path=Utilities
 wynntils.config.utils.daily_reminder.display_name=每日箱子提示
-wynntils.config.utils.daily_reminder.description=Should a message notifying that you can claim your daily chest be sent upon joining a world?
+wynntils.config.utils.daily_reminder.description=是否在進入世界後提示可以領取每日箱子？
 wynntils.config.utils.hide_potion.display_name=Hide Vanilla Active Potions Indicators
 wynntils.config.utils.hide_potion.description=Should the indicator for active potion effects (black squares) be hidden?
-wynntils.config.utils.add_class_server.display_name=Add Class & Server Button to Menu
-wynntils.config.utils.add_class_server.description=Should a class and server button be displayed on the in-game menu?
-wynntils.config.utils.hide_nametags_through_blocks.display_name=Hide Nametags Through Walls
-wynntils.config.utils.hide_nametags_through_blocks.description=Should nametags be hidden when behind opaque blocks?
+wynntils.config.utils.add_class_server.display_name=主選單 Class & Server 按鍵
+wynntils.config.utils.add_class_server.description=是否顯示 Class 和 Server按鈕在主選單？ 
+wynntils.config.utils.hide_nametags_through_blocks.display_name=隱藏牆後名稱
+wynntils.config.utils.hide_nametags_through_blocks.description=是否隱藏方塊後的名稱？
 wynntils.config.utils.hide_nametag_box.display_name=Hide Nametags' Box
 wynntils.config.utils.hide_nametag_box.description=Should the box around nametags be hidden?
-wynntils.config.utils.show_armor.display_name=Show Players' Armour
-wynntils.config.utils.show_armor.description=Should the worn armour of players be listed underneath their nametag?\n\n§8Crafted armour cannot be displayed.
-wynntils.config.utils.prevent_mythic.display_name=Prevent Mythic Loot Chest Closing
+wynntils.config.utils.show_armor.display_name=顯示玩家裝備
+wynntils.config.utils.show_armor.description=是否在玩家名稱底下顯示該玩家的裝備？\n\n§8無法顯示合成裝備
+wynntils.config.utils.prevent_mythic.display_name=避免含神話的箱子關閉
 wynntils.config.utils.prevent_mythic.description=Should the closing of loot chests be prevented when they contain mythics?
 wynntils.config.utils.prevent_slot_click.display_name=Prevent Slot Click on Locked Items
 wynntils.config.utils.prevent_slot_click.description=Should moving items to and from locked inventory slots be blocked?
@@ -488,7 +488,7 @@ wynntils.modules.map.display_name=地圖
 wynntils.modules.sounds.display_name=遊戲音效
 wynntils.modules.questbook.display_name=任務書
 wynntils.modules.richpresence.display_name=Rich Presence
-wynntils.modules.utilities.display_name=Utilities
+wynntils.modules.utilities.display_name=效能
 
 ########
 # CHAT #
