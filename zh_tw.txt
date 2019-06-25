@@ -1,5 +1,5 @@
 ﻿## CHINESE (TRADITIONAL)
-# Translated by: xWeiKuOuO,Dexmio,Tezzi_Ja
+# Translated by: xWeiKuOuO,Dexmio,Tezzi_Ja,patyhank
 #################
 # CONFIGURATION #
 #################
@@ -858,10 +858,10 @@ wynntils.utilities.overlays.gamma.display_name=Gamma
 wynntils.utilities.overlays.gamma.text=GammaBright
 
 ## HEALTH BAR OVERLAY ##
-wynntils.utilities.overlays.health_bar.display_name=Health Bar
+wynntils.utilities.overlays.health_bar.display_name=生命值
 
 ## HOTBAR OVERLAY ##
-wynntils.utilities.overlays.hotbar.display_name=Hotbar
+wynntils.utilities.overlays.hotbar.display_name=快捷欄
 
 ## LEVELING OVERLAY ##
 wynntils.utilities.overlays.leveling.display_name=Leveling Helper
