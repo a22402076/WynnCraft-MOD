@@ -487,7 +487,7 @@ wynntils.modules.core.display_name=核心
 wynntils.modules.map.display_name=地圖
 wynntils.modules.sounds.display_name=遊戲音效
 wynntils.modules.questbook.display_name=任務書
-wynntils.modules.richpresence.display_name=Rich Presence
+wynntils.modules.richpresence.display_name=詳細資訊
 wynntils.modules.utilities.display_name=效能
 
 ########
@@ -581,8 +581,8 @@ wynntils.commands.compass.direction=direction
 wynntils.commands.compass.now_pointing=Compass is now pointing towards
 
 ## /forceupdate ##
-wynntils.commands.forceupdate.usage=Force Wynntils to update
-wynntils.commands.forceupdate.running=Forcing Wynntils to update...
+wynntils.commands.forceupdate.usage=Wynntils強制更新
+wynntils.commands.forceupdate.running=強制更新中...
 
 ## /territory ##
 wynntils.commands.territory.usage=Redirects your compass to a territory
@@ -597,12 +597,12 @@ wynntils.commands.token.token_text=Wynntils Token
 wynntils.commands.token.token_link_hover=點擊這個超連結來註冊
 
 ## /wynntils ##
-wynntils.commands.wynntils.usage=/wynntils <command>
-wynntils.commands.wynntils.donate.donate_text=You can donate to Wynntils at:
-wynntils.commands.wynntils.donate.donate_link_hover=Click here to open in your browser.
-wynntils.commands.wynntils.help.basic_text=Wynntils' command list:
-wynntils.commands.wynntils.help.help=This shows a list of all Wynntils' commands.
-wynntils.commands.wynntils.help.discord=This provides you with an invite to our Discord server.
+wynntils.commands.wynntils.usage=/wynntils <指令>
+wynntils.commands.wynntils.donate.donate_text=你可以在此支持wynntils：
+wynntils.commands.wynntils.donate.donate_link_hover=點此開啟瀏覽器
+wynntils.commands.wynntils.help.basic_text=Wynntils指令列表：
+wynntils.commands.wynntils.help.help=顯示wynntils的所有指令
+wynntils.commands.wynntils.help.discord=顯示wynntils的discord伺服器
 wynntils.commands.wynntils.help.version=This shows the installed Wynntils version.
 wynntils.commands.wynntils.help.changelog=This shows the latest changelog of your version.
 wynntils.commands.wynntils.help.reloadapi=This reloads all API data.
