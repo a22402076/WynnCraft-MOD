@@ -144,7 +144,7 @@ wynntils.config.utils.daily_reminder.description=是否在進入世界後提示�
 wynntils.config.utils.hide_potion.display_name=Hide Vanilla Active Potions Indicators
 wynntils.config.utils.hide_potion.description=Should the indicator for active potion effects (black squares) be hidden?
 wynntils.config.utils.add_class_server.display_name=主選單 Class & Server 按鍵
-wynntils.config.utils.add_class_server.description=是否顯示 Class 和 Server按鈕在主選單？ 
+wynntils.config.utils.add_class_server.description=是否顯示 Class 和 Server按鈕在主選單？
 wynntils.config.utils.hide_nametags_through_blocks.display_name=隱藏牆後名稱
 wynntils.config.utils.hide_nametags_through_blocks.description=是否隱藏方塊後的名稱？
 wynntils.config.utils.hide_nametag_box.display_name=Hide Nametags' Box
@@ -237,9 +237,9 @@ wynntils.config.utils.item_highlights.threestar_color.display_name=Ingredient Hi
 wynntils.config.utils.item_highlights.threestar_color.description=What colour should the highlight for ingredients with three stars be?\n\n§aClick the coloured box to open the colour wheel.
 
 ## OVERLAYS CONFIG ##
-wynntils.config.overlay.display_path=Overlays
-wynntils.config.overlay.text_shadow.display_name=Text Shadow
-wynntils.config.overlay.text_shadow.description=What should the text shadow look like?
+wynntils.config.overlay.display_path=顯示
+wynntils.config.overlay.text_shadow.display_name=文字陰影
+wynntils.config.overlay.text_shadow.description=文字陰影該怎麼樣？
 wynntils.config.overlay.actionbar_coords.display_name=Action Bar Coordinates
 wynntils.config.overlay.actionbar_coords.description=Should the action bar display your coordinates when there is nothing else to show?
 wynntils.config.overlay.split_coords.display_name=Split Coordinates
@@ -487,7 +487,7 @@ wynntils.modules.core.display_name=核心
 wynntils.modules.map.display_name=地圖
 wynntils.modules.sounds.display_name=遊戲音效
 wynntils.modules.questbook.display_name=任務書
-wynntils.modules.richpresence.display_name=詳細資訊
+wynntils.modules.richpresence.display_name=Rich Presence
 wynntils.modules.utilities.display_name=效能
 
 ########
@@ -581,8 +581,8 @@ wynntils.commands.compass.direction=direction
 wynntils.commands.compass.now_pointing=Compass is now pointing towards
 
 ## /forceupdate ##
-wynntils.commands.forceupdate.usage=Wynntils強制更新
-wynntils.commands.forceupdate.running=強制更新中...
+wynntils.commands.forceupdate.usage=Force Wynntils to update
+wynntils.commands.forceupdate.running=Forcing Wynntils to update...
 
 ## /territory ##
 wynntils.commands.territory.usage=Redirects your compass to a territory
@@ -597,33 +597,33 @@ wynntils.commands.token.token_text=Wynntils Token
 wynntils.commands.token.token_link_hover=點擊這個超連結來註冊
 
 ## /wynntils ##
-wynntils.commands.wynntils.usage=/wynntils <指令>
-wynntils.commands.wynntils.donate.donate_text=你可以在此支持我們：
-wynntils.commands.wynntils.donate.donate_link_hover=點此在瀏覽器上開啟
-wynntils.commands.wynntils.help.basic_text=Wynntils指令列表：
-wynntils.commands.wynntils.help.help=顯示wynntils的所有指令
-wynntils.commands.wynntils.help.discord=顯示wynntils的discord伺服器
-wynntils.commands.wynntils.help.version=顯示當前的wynntils版本
-wynntils.commands.wynntils.help.changelog=顯示你wynntils版本的更新日誌
-wynntils.commands.wynntils.help.reloadapi=重新載入所有介面
-wynntils.commands.wynntils.help.donate=顯示我們的Patreon連結
-wynntils.commands.wynntils.help.token=提供可點擊的標誌讓你建立你的Wynntils帳號來管理你的裝飾品
-wynntils.commands.wynntils.help.forceupdate=下載最新且較穩定的版本
-wynntils.commands.wynntils.help.compass=讓你的指南針指向一個方位(例如：北、東南)或一個X和Z的座標
-wynntils.commands.wynntils.help.territory=讓你的指南針指向一個特定領地
+wynntils.commands.wynntils.usage=/wynntils <command>
+wynntils.commands.wynntils.donate.donate_text=You can donate to Wynntils at:
+wynntils.commands.wynntils.donate.donate_link_hover=Click here to open in your browser.
+wynntils.commands.wynntils.help.basic_text=Wynntils' command list:
+wynntils.commands.wynntils.help.help=This shows a list of all Wynntils' commands.
+wynntils.commands.wynntils.help.discord=This provides you with an invite to our Discord server.
+wynntils.commands.wynntils.help.version=This shows the installed Wynntils version.
+wynntils.commands.wynntils.help.changelog=This shows the latest changelog of your version.
+wynntils.commands.wynntils.help.reloadapi=This reloads all API data.
+wynntils.commands.wynntils.help.donate=This provides our Patreon link.
+wynntils.commands.wynntils.help.token=This provides you with a clickable token to create a Wynntils account to manage cosmetics.
+wynntils.commands.wynntils.help.forceupdate=This downloads and installs the latest successful build.
+wynntils.commands.wynntils.help.compass=This makes your compass point towards an x and z or a direction (e.g. north, SE).
+wynntils.commands.wynntils.help.territory=This makes your compass point towards a specified territory.
 wynntils.commands.wynntils.discord.basic_text=You're welcome to join our Discord server at:
 wynntils.commands.wynntils.discord.discord_link_hover=Click here to join our Discord server.
-wynntils.commands.wynntils.version.development_environment=Wynntils is running in a development environment.
-wynntils.commands.wynntils.version.using_stable=You are using Stable release stream:
-wynntils.commands.wynntils.version.using_cutting_edge=You are using Cutting Edge release stream:
+wynntils.commands.wynntils.version.development_environment=Wynntils 正在開發環境中運行.
+wynntils.commands.wynntils.version.using_stable=你正使用穩定版更新頻道:
+wynntils.commands.wynntils.version.using_cutting_edge=你正使用最新版更新頻道:
 wynntils.commands.wynntils.version.version=Version %s
 wynntils.commands.wynntils.version.build=Build %s
-wynntils.commands.wynntils.version.build_unknown=Unknown Build
-wynntils.commands.wynntils.version.update_check_failed=Wynntils failed to check for updates. Press %s to try again.
-wynntils.commands.wynntils.version.update_check_outdated=Wynntils is currently outdated. Press %s to update now.
-wynntils.commands.wynntils.version.update_check_up_to_date=Wynntils was up-to-date when last checked. Press %s to check for updates.
-wynntils.commands.wynntils.error.invalid_argument=Invalid argument. Use /wynntils help for more info.
-wynntils.commands.wynntils.error.missing_argument=Missing arguments. Use /wynntils help for more info.
+wynntils.commands.wynntils.version.build_unknown=未知的建構號
+wynntils.commands.wynntils.version.update_check_failed=Wynntils 無法檢查更新. 按下 %s 來重試.
+wynntils.commands.wynntils.version.update_check_outdated=Wynntils 版本過時. 按下 %s 來立即更新.
+wynntils.commands.wynntils.version.update_check_up_to_date=上次檢查時，Wynntils 是最新的. 按下 %s 來檢查更新.
+wynntils.commands.wynntils.error.invalid_argument=錯誤的參數. 使用 /wynntils help 來獲取資訊.
+wynntils.commands.wynntils.error.missing_argument=過少的參數. 使用 /wynntils help 來獲取資訊.
 
 ########
 # CORE #
