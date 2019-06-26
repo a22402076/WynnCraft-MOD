@@ -598,15 +598,15 @@ wynntils.commands.token.token_link_hover=點擊這個超連結來註冊
 
 ## /wynntils ##
 wynntils.commands.wynntils.usage=/wynntils <指令>
-wynntils.commands.wynntils.donate.donate_text=你可以在此支持wynntils：
-wynntils.commands.wynntils.donate.donate_link_hover=點此開啟瀏覽器
+wynntils.commands.wynntils.donate.donate_text=你可以在此支持我們：
+wynntils.commands.wynntils.donate.donate_link_hover=點此在瀏覽器上開啟
 wynntils.commands.wynntils.help.basic_text=Wynntils指令列表：
 wynntils.commands.wynntils.help.help=顯示wynntils的所有指令
 wynntils.commands.wynntils.help.discord=顯示wynntils的discord伺服器
-wynntils.commands.wynntils.help.version=This shows the installed Wynntils version.
-wynntils.commands.wynntils.help.changelog=This shows the latest changelog of your version.
-wynntils.commands.wynntils.help.reloadapi=This reloads all API data.
-wynntils.commands.wynntils.help.donate=This provides our Patreon link.
+wynntils.commands.wynntils.help.version=顯示當前的wynntils版本
+wynntils.commands.wynntils.help.changelog=顯示你wynntils版本的更新日誌
+wynntils.commands.wynntils.help.reloadapi=重新載入所有介面
+wynntils.commands.wynntils.help.donate=顯示我們的Patreon連結
 wynntils.commands.wynntils.help.token=This provides you with a clickable token to create a Wynntils account to manage cosmetics.
 wynntils.commands.wynntils.help.forceupdate=This downloads and installs the latest successful build.
 wynntils.commands.wynntils.help.compass=This makes your compass point towards an x and z or a direction (e.g. north, SE).
