@@ -7,17 +7,17 @@
 ## CORE CONFIG ##
 wynntils.config.core.display_path=核心
 wynntils.config.core.update_stream.display_name=更新狀態
-wynntils.config.core.update_stream.description=此模組要使用哪個狀態更新呢？\n\n§2Stable: §rThe mod will only update when a new version is released. Stable versions are generally more stable than Cutting Edge builds.\n\n§4Cutting Edge: §rThe mod will update whenever a new build is release. Cutting Edge builds will include features that are not yet in Stable versions and are currently in development but may also be less stable than Stable versions.
+wynntils.config.core.update_stream.description=此模組要使用哪個狀態更新呢？\n\n§2穩定版: §r模組只會在有新版本時更新。穩定版通常比先發版更加穩定。\n\n§4先發版: §r只要有新的版本發布模組就會更新。先發版會包含還未在穩定版且正在開發的功能，但可能較穩定版更不穩定。
 wynntils.config.core.scroll_direction.display_name=滑鼠滾動方向
-wynntils.config.core.scroll_direction.description=Which direction should your mouse scroll for the page to scroll down?
+wynntils.config.core.scroll_direction.description=您在滾動頁面時滑鼠是向哪個方向滾動？
 wynntils.config.core.enable_changelog_on_update.display_name=更新日誌顯示
 wynntils.config.core.enable_changelog_on_update.description=是否在更新並登入後顯示最近的更新日誌？
 wynntils.config.core.selected_language.display_name=語言
 wynntils.config.core.selected_language.description=您要使用哪語言呢？
 
 ## CORE UPDATE STREAM ENUM CONFIG ##
-wynntils.config.core.enum.update_stream.stable=Stblea
-wynntils.config.core.enum.update_stream.cutting_edge=切除邊緣
+wynntils.config.core.enum.update_stream.stable=穩定版
+wynntils.config.core.enum.update_stream.cutting_edge=先發版
 
 ## CORE SCROLL DIRECTION ENUM CONFIG ##
 wynntils.config.core.enum.scroll_direction.up=上
@@ -28,24 +28,23 @@ wynntils.config.chat.display_path=聊天室
 wynntils.config.chat.add_timestamps_to_chat.display_name=聊天室時間軸
 wynntils.config.chat.add_timestamps_to_chat.description=是否在訊息開頭顯示時間？
 wynntils.config.chat.transparent.display_name=聊天室透明化
-wynntils.config.chat.transparent.description=聊天室是否透明？
+wynntils.config.chat.transparent.description=聊天室是否透明化？
 wynntils.config.chat.timestamp_format.display_name=聊天室時間軸格式
 wynntils.config.chat.timestamp_format.description=聊天室時間軸要如何顯示？( 如果聊天室時間軸關閉則不會影響到 )
 wynntils.config.chat.chat_mentions.display_name=聊天室提及
-wynntils.config.chat.chat_mentions.description=聊天室出現你的名字時是否出現提示音？
+wynntils.config.chat.chat_mentions.description=聊天室出現你的名字時是否要出現提示音？
 wynntils.config.chat.spam_filter.display_name=洗版過濾
 wynntils.config.chat.spam_filter.description=是否堆疊重複訊息且不洗版？
-wynntils.config.chat.filter_info.display_name=Info 訊息過濾
-wynntils.config.chat.filter_info.description=是否過濾 Wynncraft 的 Info 訊息？\n\n§8 §4[Info]§8 開頭的文字將不會出現在訊息中
+wynntils.config.chat.filter_info.display_name=情報訊息過濾
+wynntils.config.chat.filter_info.description=是否過濾 Wynncraft 的情報訊息？\n\n§8 §4[Info]§8 開頭的文字將不會出現在訊息中
 wynntils.config.chat.filter_territory_enter.display_name=地區進入訊息過濾
-wynntils.config.chat.filter_territory_enter.description=聊天室是否顯示地區進入訊息？\n\n§8地區進入訊息看起來會像是 §7[You are now entering Detlas]§8.
-wynntils.config.chat.preset.display_name=Alter Chat Tab by Presets
-wynntils.config.chat.preset.description=Which pre-made selection of chat tabs should be used?\n\na - Global, Guild, Party\n\nb - Global, Shouts, Guild/Party, PMs\n\nvanilla - All
+wynntils.config.chat.filter_territory_enter.description=聊天室是否顯示地區進入訊息？\n\n§8地區進入訊息看起來會像是 §7[您正進入Detlas]§8.
+wynntils.config.chat.preset.display_name=改變預設聊天頻道
+wynntils.config.chat.preset.description=為是否使用預先設置的聊天頻道？\n\na - 全域、公會、隊伍\n\nb - 全域、廣播、公會/隊伍，私訊\n\nvanilla - All
 wynntils.config.chat.clickable_invite.display_name=組隊邀請點擊
 wynntils.config.chat.clickable_invite.description=組隊邀請指令是否可點擊？
 wynntils.config.chat.clickable_coordinate.display_name=座標點擊標記
-wynntils.config.chat.clickable_coordinate.description=Should coordinates displayed in chat be clickable as a '/compass' command?
-
+wynntils.config.chat.clickable_coordinate.description=顯示在聊天欄的座標是否與'/compass'指令一樣可點擊？
 ## CHAT PRESET ENUM CONFIG ##
 wynntils.config.chat.enum.preset.a=A
 wynntils.config.chat.enum.preset.b=B
@@ -66,7 +65,7 @@ wynntils.config.map.minimap_size.description=你的小地圖要多大呢？
 wynntils.config.map.only_north.display_name=只顯示北方
 wynntils.config.map.only_north.description=是否只在小地圖上顯示北方？
 wynntils.config.map.record_chest_tier.display_name=箱子記錄點
-wynntils.config.map.record_chest_tier.description=你要在地圖上標記哪一階級的箱子呢？\n\n§8這個模組也會順便紀錄比它的階級還要高的箱子.
+wynntils.config.map.record_chest_tier.description=你要在地圖上標記哪一階級的箱子呢？\n\n§8這個模組也會順便紀錄比它的階級還要高的箱子。
 wynntils.config.map.minimap_zoom.display_name=小地圖縮放
 wynntils.config.map.minimap_zoom.description=小地圖的縮放程度要多少？
 
@@ -106,7 +105,7 @@ wynntils.config.map.textures.enum.pointer_type.triangle=三角形
 ## MAP WAYPOINTS CONFIG ##
 wynntils.config.map.waypoints.display_path=地圖/記錄點
 wynntils.config.map.waypoints.compass_marker.display_name=羅盤標記
-wynntils.config.map.waypoints.compass_marker.description=Should a marker appear on the map where the compass is currently pointing towards?地圖上是否顯示羅盤 (compass) 當前座標？
+wynntils.config.map.waypoints.compass_marker.description=是否在地圖上顯示羅盤當前指向的圖標？
 
 ## MUSIC CONFIG ##
 wynntils.config.music.display_path=音樂
@@ -115,17 +114,17 @@ wynntils.config.music.allow_music.description=是否使用Wynntils覆蓋Wynncraf
 wynntils.config.music.volume.display_name=基礎音量
 wynntils.config.music.volume.description=背景音量要多大？
 wynntils.config.music.background_volume.display_name=背景音量
-wynntils.config.music.background_volume.description=How loud should the soundtrack be when Minecraft is not focused on?
+wynntils.config.music.background_volume.description=當個創世神音樂如過不是唯一音樂時音量要多大呢？
 
 ## QUESTBOOK CONFIG ##
 wynntils.config.questbook.display_path=任務書
 wynntils.config.questbook.allow_questbook.display_name=允許使用Wynntils任務書
 wynntils.config.questbook.allow_questbook.description=是否讓Wynntils取代WynnCraft的任務書？
 wynntils.config.questbook.compass_follow.display_name=設定任務座標到羅盤上
-wynntils.config.questbook.compass_follow.description=Should the compass point towards given coordinates of quests?
+wynntils.config.questbook.compass_follow.description=羅盤需要指向任務給予座標的方向嗎？
 wynntils.config.questbook.search_click.display_name=搜尋欄位點擊
-wynntils.config.questbook.search_click.description=Should you be required to click on the search bar before typing or be able to type in the search bar immediately after opening the quest book?
-wynntils.config.questbook.fuzzy_search.display_name=Fuzzy Search
+wynntils.config.questbook.search_click.description=需要點擊搜尋欄才能打字，還是要能夠開啟任物書後直接在搜尋欄中輸入？
+wynntils.config.questbook.fuzzy_search.display_name=模糊檢索
 wynntils.config.questbook.fuzzy_search.description=Should a different search algorithm be used that allows searching for acronyms and abbreviations?
 wynntils.config.questbook.scan_discoveries.display_name=Scan Discoveries
 wynntils.config.questbook.scan_discoveries.description=Should discoveries be analyzed by the QuestBook?\nDisabling this will make the QuestBook not show the discoveries tab but will make the QuestBook analyses faster
