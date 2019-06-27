@@ -610,20 +610,20 @@ wynntils.commands.wynntils.help.donate=顯示我們的Patreon連結
 wynntils.commands.wynntils.help.token=提供可點擊的標誌讓你建立你的Wynntils帳號來管理你的裝飾品
 wynntils.commands.wynntils.help.forceupdate=下載最新且較穩定的版本
 wynntils.commands.wynntils.help.compass=讓你的指南針指向一個方位(例如：北、東南)或一個X和Z的座標
-wynntils.commands.wynntils.help.territory=讓你的指南針指向一個特定領地
-wynntils.commands.wynntils.discord.basic_text=You're welcome to join our Discord server at:
-wynntils.commands.wynntils.discord.discord_link_hover=Click here to join our Discord server.
+wynntils.commands.wynntils.help.territory=讓你的指南針指向一個特定地點
+wynntils.commands.wynntils.discord.basic_text=歡迎加入我們的 Discord：
+wynntils.commands.wynntils.discord.discord_link_hover=點此加入我們的Discord
 wynntils.commands.wynntils.version.development_environment=Wynntils 正在開發環境中運行.
-wynntils.commands.wynntils.version.using_stable=你正使用穩定版更新頻道:
-wynntils.commands.wynntils.version.using_cutting_edge=你正使用最新版更新頻道:
+wynntils.commands.wynntils.version.using_stable=你正使用穩定版更新頻道：
+wynntils.commands.wynntils.version.using_cutting_edge=你正使用最新版更新頻道：
 wynntils.commands.wynntils.version.version=Version %s
 wynntils.commands.wynntils.version.build=Build %s
 wynntils.commands.wynntils.version.build_unknown=未知的建構號
-wynntils.commands.wynntils.version.update_check_failed=Wynntils 無法檢查更新. 按下 %s 來重試.
-wynntils.commands.wynntils.version.update_check_outdated=你的 Wynntils 版本為舊版. 按下 %s 來立即更新.
-wynntils.commands.wynntils.version.update_check_up_to_date=上次檢查時，Wynntils 是最新的. 按下 %s 來檢查更新.
-wynntils.commands.wynntils.error.invalid_argument=輸入的指令有錯誤的參數. 使用 /wynntils help 來獲取資訊.
-wynntils.commands.wynntils.error.missing_argument=輸入的指令有過少的參數. 使用 /wynntils help 來獲取資訊.
+wynntils.commands.wynntils.version.update_check_failed=Wynntils 無法檢查更新， 按下 %s 來重試.
+wynntils.commands.wynntils.version.update_check_outdated=你的 Wynntils 版本為舊版，按下 %s 來立即更新.
+wynntils.commands.wynntils.version.update_check_up_to_date=上次檢查時，Wynntils 是最新的，按下 %s 來檢查更新.
+wynntils.commands.wynntils.error.invalid_argument=輸入的指令有錯誤的參數，使用 /wynntils help 來獲取資訊.
+wynntils.commands.wynntils.error.missing_argument=輸入的指令參數過少， 使用 /wynntils help 來獲取資訊.
 
 ########
 # CORE #
@@ -655,18 +655,18 @@ wynntils.core.ui.update.update_downloaded_build=An update to Wynntils (Build %s)
 
 ## TOASTS ##
 wynntils.map.toasts.new_map_entry.title=New Map Entry
-wynntils.map.toasts.new_map_entry.body=找找到了一個 階級 %s 的箱子!
+wynntils.map.toasts.new_map_entry.body=找到了一個 階級 %s 的箱子!
 
 ## WORLD MAP UI ##
-wynntils.map.ui.world_map.button.markers=Markers
+wynntils.map.ui.world_map.button.markers=標記
 wynntils.map.ui.world_map.button.waypoints=標記點
 
 ## WORLD MAP SETTINGS UI ##
 wynntils.map.ui.world_map_settings.buttons.cancel=取消
 wynntils.map.ui.world_map_settings.buttons.default=一般
 wynntils.map.ui.world_map_settings.buttons.save=儲存
-wynntils.map.ui.world_map_settings.floating.enable_or_disable=開啟/關閉 地圖圖標:
-wynntils.map.ui.world_map_settings.floating.textures=地圖圖標材質:
+wynntils.map.ui.world_map_settings.floating.enable_or_disable=開啟/關閉 地圖圖標：
+wynntils.map.ui.world_map_settings.floating.textures=地圖圖標材質：
 
 ## ICON TEXTURE ENUM ##
 wynntils.map.enum.icon_texutre.classic=經典
@@ -701,20 +701,20 @@ wynntils.map.ui.waypoints.button.edit=編輯...
 #########
 
 ## NOW PLAYING DISPLAY ##
-wynntils.music.overlays.now_playing.nothing_playing=Nothing is being played!
-wynntils.music.overlays.now_playing.play=Play
-wynntils.music.overlays.now_playing.pause=Pause
+wynntils.music.overlays.now_playing.nothing_playing=沒有東西正常播放！
+wynntils.music.overlays.now_playing.play=播放
+wynntils.music.overlays.now_playing.pause=暫停
 
 ##############
 # QUEST BOOK #
 ##############
 
 ## TRACKED QUEST OVERLAY ##
-wynntils.questbook.overlays.tracked_quest.display_name=Tracked Quest
-wynntils.questbook.overlays.tracked_quest.title=Tracked Quest Info:
+wynntils.questbook.overlays.tracked_quest.display_name=任務追蹤
+wynntils.questbook.overlays.tracked_quest.title=追蹤任務資訊：
 
 ## QUEST BOOK UI ##
-wynntils.questbook.ui.questbook.button.generic.left_to_select=Left click to select
+wynntils.questbook.ui.questbook.button.generic.left_to_select=點擊左鍵選擇
 wynntils.questbook.ui.questbook.link_error=There was an error while opening the link. It has been copied to your clipboard.
 wynntils.questbook.ui.questbook.sort_type=Order the list by
 wynntils.questbook.ui.questbook.sort_type.alphabetical=Alphabetical Order (A-Z)
@@ -864,10 +864,10 @@ wynntils.utilities.overlays.health_bar.display_name=生命值
 wynntils.utilities.overlays.hotbar.display_name=快捷欄
 
 ## LEVELING OVERLAY ##
-wynntils.utilities.overlays.leveling.display_name=Leveling Helper
+wynntils.utilities.overlays.leveling.display_name=升級輔助
 
 ## MANA BAR OVERLAY ##
-wynntils.utilities.overlays.mana_bar.display_name=Mana Bar
+wynntils.utilities.overlays.mana_bar.display_name=魔力條
 
 ## TERRITORY FEED OVERLAY ##
 wynntils.utilities.overlays.territory_feed.display_name=Territory Feed
@@ -876,14 +876,14 @@ wynntils.utilities.overlays.territory_feed.defended=[%1$s]'s attack on [%2$s]'s 
 wynntils.utilities.overlays.territory_feed.captured=[%1$s] has captured %2$s from [%3$s]
 
 ## TOASTS OVERLAY ##
-wynntils.utilities.overlays.toasts.display_name=Toasts
-wynntils.utilities.overlays.toasts.now_entering=Now entering
-wynntils.utilities.overlays.toasts.quest_completed=Quest Completed!
+wynntils.utilities.overlays.toasts.display_name=通知
+wynntils.utilities.overlays.toasts.now_entering=正在進入
+wynntils.utilities.overlays.toasts.quest_completed=任務完成！
 wynntils.utilities.overlays.toasts.area_discovered=Area Discovered!
 wynntils.utilities.overlays.toasts.discovery_found=Discovery Found!
 
 ## WAR TIMER OVERLAY ##
-wynntils.utilities.overlays.war_timer.display_name=War Timer overlay
+wynntils.utilities.overlays.war_timer.display_name=公會戰時間顯示
 wynntils.utilities.overlays.war_timer.message.lasted_for=The war for %s lasted for
 wynntils.utilities.overlays.war_timer.message.start_in=The war for %s will start in
 wynntils.utilities.overlays.war_timer.message.start_in.no_territory=The war will start in
