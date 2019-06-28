@@ -584,10 +584,10 @@ wynntils.commands.forceupdate.usage=Wynntils強制更新
 wynntils.commands.forceupdate.running=強制更新中...
 
 ## /territory ##
-wynntils.commands.territory.usage=Redirects your compass to a territory
-wynntils.commands.territory.error.wrong_usage=/territory [name] | Ex: /territory Detlas
-wynntils.commands.territory.error.territory_not_valid=Invalid territory! Use: /territory [name] | Ex: /territory Detlas
-wynntils.commands.territory.now_pointing=The compass is now pointing towards %s (%o, %o)
+wynntils.commands.territory.usage=重新定位羅盤至地區。
+wynntils.commands.territory.error.wrong_usage=/territory [名稱] | Ex: /territory Detlas
+wynntils.commands.territory.error.territory_not_valid=未知地點！ 請使用： /territory [名稱] | Ex: /territory Detlas
+wynntils.commands.territory.now_pointing=羅盤正在指向 %s (%o, %o)
 wynntils.commands.territory.compass_warning=\nPlease be sure you know that this command redirects your compass to the middle of the territory.
 
 ## /token ##
@@ -653,7 +653,7 @@ wynntils.core.ui.update.update_downloaded_build=An update to Wynntils (Build %s)
 #######
 
 ## TOASTS ##
-wynntils.map.toasts.new_map_entry.title=New Map Entry
+wynntils.map.toasts.new_map_entry.title=新地圖標記
 wynntils.map.toasts.new_map_entry.body=找到了一個 階級 %s 的箱子!
 
 ## WORLD MAP UI ##
@@ -670,7 +670,7 @@ wynntils.map.ui.world_map_settings.floating.textures=地圖圖標材質：
 ## ICON TEXTURE ENUM ##
 wynntils.map.enum.icon_texutre.classic=經典
 # Spell error in code replicated for consistency
-wynntils.map.enum.icon_texutre.medival=Medieval
+wynntils.map.enum.icon_texutre.medival=中世紀
 
 ## MINIMAP OVERLAY ##
 wynntils.map.overlays.minimap.display_name=小地圖
