@@ -870,7 +870,7 @@ wynntils.utilities.overlays.mana_bar.display_name=魔力條
 
 ## TERRITORY FEED OVERLAY ##
 wynntils.utilities.overlays.territory_feed.display_name=Territory Feed
-wynntils.utilities.overlays.territory_feed.attacked=[%1$s]'s territory %2$s is being attacked by [%3$s]
+wynntils.utilities.overlays.territory_feed.attacked=[%1$s] 的領地 %2$s 正在被 [%3$s] 進攻中！
 wynntils.utilities.overlays.territory_feed.defended=[%1$s]'s attack on [%2$s]'s territory %3$s was defended!
 wynntils.utilities.overlays.territory_feed.captured=[%1$s] has captured %2$s from [%3$s]
 
