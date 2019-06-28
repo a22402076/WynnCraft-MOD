@@ -791,8 +791,8 @@ wynntils.questbook.ui.questbook.version.cutting_edge=CE Build %s
 #############
 
 ## CLIENT EVENTS ##
-wynntils.utilities.events.prevent_mythic_close=You cannot close this loot chest while there is mythic in it!
-wynntils.utilities.events.check_daily=§7Daily rewards §fare available to claim!
+wynntils.utilities.events.prevent_mythic_close=因此寶箱有神話(mythic)物品，無法關閉此寶箱！
+wynntils.utilities.events.check_daily=§7每日獎勵箱 §f已可領取！
 
 ## ACTIONBAR HELPER OVERLAY ##
 wynntils.utilities.overlays.actionbar_helper.display_name=ActionBar Helper
@@ -801,30 +801,30 @@ wynntils.utilities.overlays.actionbar_helper.display_name=ActionBar Helper
 wynntils.utilities.overlays.bubbles.display_name=Bubbles Overlay
 
 ## EXPERIENCE BAR OVERLAY ##
-wynntils.utilities.overlays.experience_bar.display_name=Experience Bar
+wynntils.utilities.overlays.experience_bar.display_name=經驗條
 
 ## GAME UPDATE OVERLAY ##
-wynntils.utilities.overlays.game_update.display_name=Game-Update-Ticker
-wynntils.utilities.overlays.game_update.wrong_timestamp=[Wynntils] WynnExpansion's chat timestamps have been detected. Please use Wynntils' chat timestamps for full compatibility.
-wynntils.utilities.overlays.game_update.redir.horse.no_room=There is no room for a horse.
-wynntils.utilities.overlays.game_update.redir.horse.despawned=Horse despawned.
-wynntils.utilities.overlays.game_update.redir.horse.too_many_mobs=Too many mobs nearby to spawn your horse.
-wynntils.utilities.overlays.game_update.redir.combat.no_mana=Not enough mana.
-wynntils.utilities.overlays.game_update.redir.combat.not_unlocked=Spell not unlocked
-wynntils.utilities.overlays.game_update.redir.combat.mana_pot=[+%1$s %3$s mana over %2$s seconds]
-wynntils.utilities.overlays.game_update.redir.combat.strength_pot=[+%1$s %3$s Strength for %2$s seconds]
-wynntils.utilities.overlays.game_update.redir.combat.agility_pot=[+%1$s %3$s Agility for %2$s seconds]
-wynntils.utilities.overlays.game_update.redir.combat.dexterity_pot=[+%1$s %3$s Dexterity for %2$s seconds]
-wynntils.utilities.overlays.game_update.redir.combat.intelligence_pot=[+%1$s %3$s Intelligence for %2$s seconds]
-wynntils.utilities.overlays.game_update.redir.combat.defense_pot=[+%1$s %3$s Defense for %2$s seconds]
-wynntils.utilities.overlays.game_update.redir.combat.pot_already_active=You already have that potion active...
-wynntils.utilities.overlays.game_update.redir.combat.cant_teleport=Can't teleport - move away from blocks.
-wynntils.utilities.overlays.game_update.redir.combat.cleared_effects=§bCleared §7all potion effects
-wynntils.utilities.overlays.game_update.redir.combat.removed_fire=§bRemoved §7all fire
-wynntils.utilities.overlays.game_update.redir.combat.speed_boost=§b+3 minutes §7speed boost
-wynntils.utilities.overlays.game_update.redir.combat.10_resistance=§b+10%% resistance
-wynntils.utilities.overlays.game_update.redir.combat.15_resistance=§b+15%% resistance
-wynntils.utilities.overlays.game_update.redir.combat.20_resistance=§b+20%% resistance §7& §b+10%% strength
+wynntils.utilities.overlays.game_update.display_name=遊戲更新間隔
+wynntils.utilities.overlays.game_update.wrong_timestamp=[Wynntils] 偵測到您使用 WynnExpansion 的聊天時間軸，請使用 Wynntils 的聊天時間軸以確保相容。
+wynntils.utilities.overlays.game_update.redir.horse.no_room=此處無空間召喚馬。
+wynntils.utilities.overlays.game_update.redir.horse.despawned=馬匹已召喚。
+wynntils.utilities.overlays.game_update.redir.horse.too_many_mobs=四周怪物過多，馬匹無法召喚。
+wynntils.utilities.overlays.game_update.redir.combat.no_mana=魔力不足。
+wynntils.utilities.overlays.game_update.redir.combat.not_unlocked=此技能尚未解鎖。
+wynntils.utilities.overlays.game_update.redir.combat.mana_pot=[+%1$s %3$s 魔力恢復 %2$s 秒]
+wynntils.utilities.overlays.game_update.redir.combat.strength_pot=[+%1$s %3$s Strength %2$s 秒]
+wynntils.utilities.overlays.game_update.redir.combat.agility_pot=[+%1$s %3$s Agility %2$s 秒]
+wynntils.utilities.overlays.game_update.redir.combat.dexterity_pot=[+%1$s %3$s Dexterity %2$s 秒]
+wynntils.utilities.overlays.game_update.redir.combat.intelligence_pot=[+%1$s %3$s Intelligence %2$s 秒]
+wynntils.utilities.overlays.game_update.redir.combat.defense_pot=[+%1$s %3$s Defense %2$s 秒]
+wynntils.utilities.overlays.game_update.redir.combat.pot_already_active=你已有此藥水效果...
+wynntils.utilities.overlays.game_update.redir.combat.cant_teleport=無法傳送，請離開此方塊。
+wynntils.utilities.overlays.game_update.redir.combat.cleared_effects=§b已移除 §7所有藥水效果。
+wynntils.utilities.overlays.game_update.redir.combat.removed_fire=§b已移除 §7火焰效果。
+wynntils.utilities.overlays.game_update.redir.combat.speed_boost=§b+3 分鐘 §7加速。
+wynntils.utilities.overlays.game_update.redir.combat.10_resistance=§b+10%% 抗性。
+wynntils.utilities.overlays.game_update.redir.combat.15_resistance=§b+15%% 抗性。
+wynntils.utilities.overlays.game_update.redir.combat.20_resistance=§b+20%% 抗性 §7& §b+10%% 力量。
 wynntils.utilities.overlays.game_update.redir.other.skill_points_available=§e%s §6技能點可使用。
 wynntils.utilities.overlays.game_update.redir.other.combat_level_up=§e%1$s §6現在 §e%2$s等了！
 wynntils.utilities.overlays.game_update.redir.other.profession_level_up=§e%1$s §6現在 §e%2$s %3$s §6 §e%4$s等了！
@@ -845,8 +845,8 @@ wynntils.utilities.overlays.game_update.redir.quest.updated=任務書已更新�
 wynntils.utilities.overlays.game_update.redir.quest.started=新任務開始：
 wynntils.utilities.overlays.game_update.redir.merchant.identifying=鑑定中...
 wynntils.utilities.overlays.game_update.redir.merchant.identified=鑑定完成！
-wynntils.utilities.overlays.game_update.redir.merchant.sold=§dSold %1$s item(s) for §a%2$s§d.
-wynntils.utilities.overlays.game_update.redir.merchant.scrapped=§dScrapped %1$s item(s) for §e%2$s scrap§d.
+wynntils.utilities.overlays.game_update.redir.merchant.sold=§d已販賣 %1$s 個物品獲得 §a%2$s§d.
+wynntils.utilities.overlays.game_update.redir.merchant.scrapped=§d已報廢 %1$s 個物品獲得 §e%2$s scrap§d.
 wynntils.utilities.overlays.game_update.redir.merchant.not_weapon=您只能在這販賣武器、飾品及防具。
 wynntils.utilities.overlays.game_update.redir.merchant.cant_scrap=此物品無法報廢。
 wynntils.utilities.overlays.game_update.redir.merchant.purchased=交易完成。
