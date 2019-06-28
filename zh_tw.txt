@@ -700,7 +700,7 @@ wynntils.map.ui.waypoints.button.edit=編輯...
 #########
 
 ## NOW PLAYING DISPLAY ##
-wynntils.music.overlays.now_playing.nothing_playing=沒有東西正常播放！
+wynntils.music.overlays.now_playing.nothing_playing=沒有東西正在播放！
 wynntils.music.overlays.now_playing.play=播放
 wynntils.music.overlays.now_playing.pause=暫停
 
@@ -870,9 +870,9 @@ wynntils.utilities.overlays.mana_bar.display_name=魔力條
 
 ## TERRITORY FEED OVERLAY ##
 wynntils.utilities.overlays.territory_feed.display_name=Territory Feed
-wynntils.utilities.overlays.territory_feed.attacked=[%1$s] 的領地 %2$s 正在被 [%3$s] 進攻中！
+wynntils.utilities.overlays.territory_feed.attacked=[%1$s] 的領地 %2$s 正被 [%3$s] 進攻中！
 wynntils.utilities.overlays.territory_feed.defended=[%1$s]'s attack on [%2$s]'s territory %3$s was defended!
-wynntils.utilities.overlays.territory_feed.captured=[%1$s] has captured %2$s from [%3$s]
+wynntils.utilities.overlays.territory_feed.captured=[%1$s] has captured %2$s from [%3$s] 
 
 ## TOASTS OVERLAY ##
 wynntils.utilities.overlays.toasts.display_name=通知
@@ -884,9 +884,9 @@ wynntils.utilities.overlays.toasts.discovery_found=Discovery Found!
 ## WAR TIMER OVERLAY ##
 wynntils.utilities.overlays.war_timer.display_name=公會戰時間顯示
 wynntils.utilities.overlays.war_timer.message.lasted_for=The war for %s lasted for
-wynntils.utilities.overlays.war_timer.message.start_in=The war for %s will start in
-wynntils.utilities.overlays.war_timer.message.start_in.no_territory=The war will start in
-wynntils.utilities.overlays.war_timer.message.mob_spawn=The mobs for %s will start spawning in
-wynntils.utilities.overlays.war_timer.message.mob_spawn.no_territory=The mobs will start spawning in
-wynntils.utilities.overlays.war_timer.message.in_war=You have been at war in %s for
-wynntils.utilities.overlays.war_timer.message.in_war.no_territory=You have been at war for
+wynntils.utilities.overlays.war_timer.message.start_in=公會戰將於 %s 後開始。
+wynntils.utilities.overlays.war_timer.message.start_in.no_territory=公會戰即將開始。
+wynntils.utilities.overlays.war_timer.message.mob_spawn=怪物將於 %s 後生成。
+wynntils.utilities.overlays.war_timer.message.mob_spawn.no_territory=怪物即將生成
+wynntils.utilities.overlays.war_timer.message.in_war=你已於戰鬥中 %s 
+wynntils.utilities.overlays.war_timer.message.in_war.no_territory=你已於戰鬥中
