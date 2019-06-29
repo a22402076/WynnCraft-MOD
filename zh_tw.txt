@@ -772,7 +772,7 @@ wynntils.questbook.ui.questbook.intro_2=see your statistics on the
 wynntils.questbook.ui.questbook.intro_3=right or select some of the
 wynntils.questbook.ui.questbook.intro_4=options above for more
 wynntils.questbook.ui.questbook.intro_5=features.
-wynntils.questbook.ui.questbook.user_profile=User Profile
+wynntils.questbook.ui.questbook.user_profile=玩家資訊
 wynntils.questbook.ui.questbook.discoveries.info_1=Here you can see all of the
 wynntils.questbook.ui.questbook.discoveries.info_2=discoveries you have already
 wynntils.questbook.ui.questbook.discoveries.info_3=found.
@@ -783,8 +783,8 @@ wynntils.questbook.ui.questbook.discoveries.back_to_quests.subtitle_1=Click here
 wynntils.questbook.ui.questbook.discoveries.back_to_quests.subtitle_2=back to the quests
 wynntils.questbook.ui.questbook.discoveries.back_to_quests.subtitle_3=
 wynntils.questbook.ui.questbook.discoveries=Discoveries
-wynntils.questbook.ui.questbook.version.stable=Stable v%s
-wynntils.questbook.ui.questbook.version.cutting_edge=CE Build %s
+wynntils.questbook.ui.questbook.version.stable=穩定版 v%s
+wynntils.questbook.ui.questbook.version.cutting_edge=先發版 %s
 
 #############
 # UTILITIES #
@@ -846,7 +846,7 @@ wynntils.utilities.overlays.game_update.redir.quest.started=新任務開始：
 wynntils.utilities.overlays.game_update.redir.merchant.identifying=鑑定中...
 wynntils.utilities.overlays.game_update.redir.merchant.identified=鑑定完成！
 wynntils.utilities.overlays.game_update.redir.merchant.sold=§d已販賣 %1$s 個物品獲得 §a%2$s§d.
-wynntils.utilities.overlays.game_update.redir.merchant.scrapped=§d已報廢 %1$s 個物品獲得 §e%2$s scrap§d.
+wynntils.utilities.overlays.game_update.redir.merchant.scrapped=§d已報廢 %1$s 個物品獲得 §e%2$s 個零件碎片§d.
 wynntils.utilities.overlays.game_update.redir.merchant.not_weapon=您只能在這販賣武器、飾品及防具。
 wynntils.utilities.overlays.game_update.redir.merchant.cant_scrap=此物品無法報廢。
 wynntils.utilities.overlays.game_update.redir.merchant.purchased=交易完成。
@@ -878,8 +878,8 @@ wynntils.utilities.overlays.territory_feed.captured=[%1$s] has captured %2$s fro
 wynntils.utilities.overlays.toasts.display_name=通知
 wynntils.utilities.overlays.toasts.now_entering=正在進入
 wynntils.utilities.overlays.toasts.quest_completed=任務完成！
-wynntils.utilities.overlays.toasts.area_discovered=Area Discovered!
-wynntils.utilities.overlays.toasts.discovery_found=Discovery Found!
+wynntils.utilities.overlays.toasts.area_discovered=區域發現！
+wynntils.utilities.overlays.toasts.discovery_found=探索點發現！
 
 ## WAR TIMER OVERLAY ##
 wynntils.utilities.overlays.war_timer.display_name=公會戰時間顯示
