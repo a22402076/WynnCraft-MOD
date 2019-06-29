@@ -114,7 +114,7 @@ wynntils.config.music.allow_music.description=是否使用Wynntils覆蓋Wynncraf
 wynntils.config.music.volume.display_name=基礎音量
 wynntils.config.music.volume.description=背景音量要多大？
 wynntils.config.music.background_volume.display_name=背景音量
-wynntils.config.music.background_volume.description=當個創世神音樂如過不是唯一音樂時音量要多大呢？
+wynntils.config.music.background_volume.description=當個創世神音樂如果不是唯一音樂時音量要多大呢？
 
 ## QUESTBOOK CONFIG ##
 wynntils.config.questbook.display_path=任務書
@@ -123,16 +123,16 @@ wynntils.config.questbook.allow_questbook.description=是否讓Wynntils取代Wyn
 wynntils.config.questbook.compass_follow.display_name=設定任務座標到羅盤上
 wynntils.config.questbook.compass_follow.description=羅盤需要指向任務給予座標的方向嗎？
 wynntils.config.questbook.search_click.display_name=搜尋欄位點擊
-wynntils.config.questbook.search_click.description=需要點擊搜尋欄才能打字，還是要能夠開啟任物書後直接在搜尋欄中輸入？
+wynntils.config.questbook.search_click.description=是否要點擊搜尋欄才能打字，還是要能夠開啟任物書後直接在搜尋欄中輸入？
 wynntils.config.questbook.fuzzy_search.display_name=模糊檢索
-wynntils.config.questbook.fuzzy_search.description=要使用能搜尋簡寫的不同搜尋演算法嗎？
+wynntils.config.questbook.fuzzy_search.description=是否使用能搜尋簡寫的不同搜尋演算法嗎？
 wynntils.config.questbook.scan_discoveries.display_name=檢查探索區域
-wynntils.config.questbook.scan_discoveries.description=您要任務書能分析探索區域？\n取消此項會導致任務書不顯示探索區域標籤，但會使任務書分析速度更快
+wynntils.config.questbook.scan_discoveries.description=是否要任務書分析探索區域？\n取消此項會導致任務書不顯示探索區域標籤，但會使任務書分析速度更快
 
 ## RICH PRESENCE CONFIG ##
 wynntils.config.richpresence.display_path=Discord遊玩資訊
 wynntils.config.richpresence.show_information.display_name=顯示角色名稱
-wynntils.config.richpresence.show_information.description=是否讓Discord遊玩資訊顯示角色等基本訊息？
+wynntils.config.richpresence.show_information.description=是否讓 Discord 遊玩資訊顯示角色等基本訊息？
 wynntils.config.richpresence.enable.display_name=顯示Discord遊玩資訊
 wynntils.config.richpresence.enable.description=是否在 Discord 上啟用遊玩資訊？
 
@@ -152,11 +152,11 @@ wynntils.config.utils.show_armor.display_name=顯示玩家裝備
 wynntils.config.utils.show_armor.description=是否在玩家名稱底下顯示該玩家的裝備？\n\n§8無法顯示合成裝備
 wynntils.config.utils.prevent_mythic.display_name=避免含神話的箱子關閉
 wynntils.config.utils.prevent_mythic.description=是否要避免有神話裝(Mythic)的箱子關閉？
-wynntils.config.utils.prevent_slot_click.display_name=Prevent Slot Click on Locked Items
-wynntils.config.utils.prevent_slot_click.description=Should moving items to and from locked inventory slots be blocked?
-wynntils.config.utils.afk_collision_block.display_name=Block Player Collision When AFK
-wynntils.config.utils.afk_collision_block.description=Should player collision be blocked when you are AFK?
-wynntils.config.utils.highlight_on_hotbar.display_name=Display Item Highlighting on Hotbar
+wynntils.config.utils.prevent_slot_click.display_name=預防上鎖欄位點擊
+wynntils.config.utils.prevent_slot_click.description=是否防止上鎖物品在背包中移動？
+wynntils.config.utils.afk_collision_block.display_name=在掛機時防止玩家相撞 Block Player Collision When AFK
+wynntils.config.utils.afk_collision_block.description=是否防止玩家在掛機時的相撞？Should player collision be blocked when you are AFK?
+wynntils.config.utils.highlight_on_hotbar.display_name=顯示快捷欄中物品Display Item Highlighting on Hotbar
 wynntils.config.utils.highlight_on_hotbar.description=Should the highlight of item rarities be displayed on the hotbar?
 
 ## UTILITIES WAR CONFIG ##
