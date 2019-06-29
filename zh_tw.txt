@@ -125,9 +125,9 @@ wynntils.config.questbook.compass_follow.description=羅盤需要指向任務給
 wynntils.config.questbook.search_click.display_name=搜尋欄位點擊
 wynntils.config.questbook.search_click.description=需要點擊搜尋欄才能打字，還是要能夠開啟任物書後直接在搜尋欄中輸入？
 wynntils.config.questbook.fuzzy_search.display_name=模糊檢索
-wynntils.config.questbook.fuzzy_search.description=Should a different search algorithm be used that allows searching for acronyms and abbreviations?
-wynntils.config.questbook.scan_discoveries.display_name=Scan Discoveries
-wynntils.config.questbook.scan_discoveries.description=Should discoveries be analyzed by the QuestBook?\nDisabling this will make the QuestBook not show the discoveries tab but will make the QuestBook analyses faster
+wynntils.config.questbook.fuzzy_search.description=要使用能搜尋簡寫的不同搜尋演算法嗎？
+wynntils.config.questbook.scan_discoveries.display_name=檢查探索區域
+wynntils.config.questbook.scan_discoveries.description=您要任務書能分析探索區域？\n取消此項會導致任務書不顯示探索區域標籤，但會使任務書分析速度更快
 
 ## RICH PRESENCE CONFIG ##
 wynntils.config.richpresence.display_path=Discord遊玩資訊
@@ -140,10 +140,10 @@ wynntils.config.richpresence.enable.description=是否在 Discord 上啟用遊�
 wynntils.config.utils.display_path=Utilities
 wynntils.config.utils.daily_reminder.display_name=每日箱子提示
 wynntils.config.utils.daily_reminder.description=是否在進入世界後提示您能領取每日箱子？
-wynntils.config.utils.hide_potion.display_name=Hide Vanilla Active Potions Indicators
-wynntils.config.utils.hide_potion.description=Should the indicator for active potion effects (black squares) be hidden?
+wynntils.config.utils.hide_potion.display_name=隱藏原版藥水效果指示
+wynntils.config.utils.hide_potion.description=您要隱藏原版藥水效果指示(黑色方框)嗎？
 wynntils.config.utils.add_class_server.display_name=主選單 Class & Server 按鍵
-wynntils.config.utils.add_class_server.description=是否顯示 Class 和 Server按鈕在主選單？
+wynntils.config.utils.add_class_server.description=是否顯示 Class 和 Server 按鈕在主選單？
 wynntils.config.utils.hide_nametags_through_blocks.display_name=隱藏牆後名稱
 wynntils.config.utils.hide_nametags_through_blocks.description=是否隱藏方塊後的名稱？
 wynntils.config.utils.hide_nametag_box.display_name=Hide Nametags' Box
