@@ -167,12 +167,12 @@ wynntils.config.utils.war.warrer_health_bar.display_name=Show Player Health Bar
 wynntils.config.utils.war.warrer_health_bar.description=Should the health bar of other players in a war server be displayed above their heads?
 
 ## UTILITIES ITEM HIGHLIGHTS CONFIG ##
-wynntils.config.utils.item_highlights.display_path=實用類/物品明強調顯示
+wynntils.config.utils.item_highlights.display_path=實用類/物品強調顯示
 wynntils.config.utils.item_highlights.ingredient_filter.display_name=Filter for Ingredients
 wynntils.config.utils.item_highlights.ingredient_filter.description=Should a filter for ingredients and crafted items be displayed?
 wynntils.config.utils.item_highlights.highlight_container.display_name=Item Highlights in Containers
 wynntils.config.utils.item_highlights.highlight_container.description=Should items be highlighted according to rarity in remote containers? (chests, bank, etc.)
-wynntils.config.utils.item_highlights.highlight_inventory.display_name=背包物品高亮度標記
+wynntils.config.utils.item_highlights.highlight_inventory.display_name=背包物品強調顯示
 wynntils.config.utils.item_highlights.highlight_inventory.description=Should items be highlighted according to rarity in your inventory?
 wynntils.config.utils.item_highlights.highlight_accessory.display_name=Accessories Highlight
 wynntils.config.utils.item_highlights.highlight_accessory.description=Should your worn accessories be highlighted according to rarity?
@@ -202,9 +202,9 @@ wynntils.config.utils.item_highlights.highlight_rare_cosmetic.display_name=稀�
 wynntils.config.utils.item_highlights.highlight_rare_cosmetic.description=是否讓稀有級(Rare)時裝更加顯眼？
 wynntils.config.utils.item_highlights.highlight_common_cosmetic.display_name=常見(Common)時裝強調顯示
 wynntils.config.utils.item_highlights.highlight_common_cosmetic.description=是否讓常見(Common)時裝更加顯眼？
-wynntils.config.utils.item_highlights.emeralds_container.display_name=Show Emerald Count in Containers
-wynntils.config.utils.item_highlights.emeralds_container.description=Should your emerald count be displayed in remote containers? (chests, bank, etc.)
-wynntils.config.utils.item_highlights.emeralds_inventory.display_name=Show Emerald Count in Inventory
+wynntils.config.utils.item_highlights.emeralds_container.display_name=在儲藏箱中顯示綠寶石數量
+wynntils.config.utils.item_highlights.emeralds_container.description=是否要在儲藏箱中顯示您的綠寶石數量？(箱子、銀行等...)
+wynntils.config.utils.item_highlights.emeralds_inventory.display_name=Show Emerald Count in Inventory?
 wynntils.config.utils.item_highlights.emeralds_inventory.description=Should your emerald count be displayed in your inventory?
 wynntils.config.utils.item_highlights.highlight_powder.display_name=Highlight Powders
 wynntils.config.utils.item_highlights.highlight_powder.description=Should powders be highlighted according to their element?
