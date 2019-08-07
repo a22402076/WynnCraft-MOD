@@ -494,17 +494,17 @@ wynntils.modules.utilities.display_name=效能
 ########
 
 ## TAB GUI ##
-wynntils.chat.tabgui.generic.required=Required
-wynntils.chat.tabgui.generic.optional=Optional
-wynntils.chat.tabgui.button.save=Save
-wynntils.chat.tabgui.button.save.tooltip_1=Click here to save
-wynntils.chat.tabgui.button.save.tooltip_2=this chat tab.
-wynntils.chat.tabgui.button.delete=Delete
-wynntils.chat.tabgui.button.delete.tooltip_1=Click here to delete
-wynntils.chat.tabgui.button.delete.tooltip_2=this chat tab.
+wynntils.chat.tabgui.generic.required=必填
+wynntils.chat.tabgui.generic.optional=選填
+wynntils.chat.tabgui.button.save=儲存
+wynntils.chat.tabgui.button.save.tooltip_1=點此儲存聊天標籤
+wynntils.chat.tabgui.button.save.tooltip_2=設定
+wynntils.chat.tabgui.button.delete=刪除
+wynntils.chat.tabgui.button.delete.tooltip_1=點此刪除此聊天標籤
+wynntils.chat.tabgui.button.delete.tooltip_2=
 wynntils.chat.tabgui.button.delete.tooltip_3=
 wynntils.chat.tabgui.button.delete.tooltip_4=Irreversible action
-wynntils.chat.tabgui.button.close=Close
+wynntils.chat.tabgui.button.close=關閉
 wynntils.chat.tabgui.button.advanced_show=顯示進階設定
 wynntils.chat.tabgui.button.advanced_hide=隱藏進階設定
 wynntils.chat.tabgui.button.low_priority=Low Priority
@@ -515,19 +515,19 @@ wynntils.chat.tabgui.button.low_priority.tooltip_4=
 wynntils.chat.tabgui.button.low_priority.tooltip_5=This will also duplicate
 wynntils.chat.tabgui.button.low_priority.tooltip_6=messages across other
 wynntils.chat.tabgui.button.low_priority.tooltip_7=low priority tabs.
-wynntils.chat.tabgui.button.message_types=Message types
-wynntils.chat.tabgui.button.message_type.all=All
-wynntils.chat.tabgui.button.message_type.all.tooltip_1=Message Type: All
-wynntils.chat.tabgui.button.message_type.all.tooltip_2=This will send all
-wynntils.chat.tabgui.button.message_type.all.tooltip_3=messages, except those
-wynntils.chat.tabgui.button.message_type.all.tooltip_4=deselected to this tab.
-wynntils.chat.tabgui.button.message_type.local=Local
-wynntils.chat.tabgui.button.message_type.local.tooltip_1=Message Type: Local
-wynntils.chat.tabgui.button.message_type.local.tooltip_2=This will send all
-wynntils.chat.tabgui.button.message_type.local.tooltip_3=messages sent by nearby
-wynntils.chat.tabgui.button.message_type.local.tooltip_4=players to this tab.
-wynntils.chat.tabgui.button.message_type.guild=Guild
-wynntils.chat.tabgui.button.message_type.guild.tooltip_1=Message Type: Guild
+wynntils.chat.tabgui.button.message_types=訊息種類
+wynntils.chat.tabgui.button.message_type.all=全部
+wynntils.chat.tabgui.button.message_type.all.tooltip_1=訊息種類： 全部
+wynntils.chat.tabgui.button.message_type.all.tooltip_2=選用此選項會發送所
+wynntils.chat.tabgui.button.message_type.all.tooltip_3=有類型的訊息，就算
+wynntils.chat.tabgui.button.message_type.all.tooltip_4=你未選擇其他選項
+wynntils.chat.tabgui.button.message_type.local=本地
+wynntils.chat.tabgui.button.message_type.local.tooltip_1=訊息種類： 本地
+wynntils.chat.tabgui.button.message_type.local.tooltip_2=選用此選項會發送所有你
+wynntils.chat.tabgui.button.message_type.local.tooltip_3=身邊玩家的訊息至此頻道
+wynntils.chat.tabgui.button.message_type.local.tooltip_4=
+wynntils.chat.tabgui.button.message_type.guild=公會
+wynntils.chat.tabgui.button.message_type.guild.tooltip_1=訊息種類： 公會
 wynntils.chat.tabgui.button.message_type.guild.tooltip_2=This will send all
 wynntils.chat.tabgui.button.message_type.guild.tooltip_3=messages sent by guild
 wynntils.chat.tabgui.button.message_type.guild.tooltip_4=members to this tab.
@@ -592,7 +592,7 @@ wynntils.commands.territory.compass_warning=\nPlease be sure you know that this 
 
 ## /token ##
 wynntils.commands.token.usage=Returns your Wynntils auth token
-wynntils.commands.token.token_text=Wynntils Token
+wynntils.commands.token.token_text=Wynntils 飾物
 wynntils.commands.token.token_link_hover=點擊這個超連結來註冊
 
 ## /wynntils ##
