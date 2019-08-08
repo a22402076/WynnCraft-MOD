@@ -74,10 +74,10 @@ wynntils.config.map.enum.map_format.square=正方形
 wynntils.config.map.enum.map_format.circle=圓形
 
 ## MAP CHEST TIER ENUM CONFIG ##
-wynntils.config.map.enum.chest_tier.tier_1=階級 1
-wynntils.config.map.enum.chest_tier.tier_2=階級 2
-wynntils.config.map.enum.chest_tier.tier_3=階級 3
-wynntils.config.map.enum.chest_tier.tier_4=階級 4
+wynntils.config.map.enum.chest_tier.tier_1=1 階 
+wynntils.config.map.enum.chest_tier.tier_2=2 階
+wynntils.config.map.enum.chest_tier.tier_3=3 階
+wynntils.config.map.enum.chest_tier.tier_4=4 階
 wynntils.config.map.enum.chest_tier.none=不做標記
 
 ## MAP TEXTURES CONFIG ##
@@ -146,16 +146,16 @@ wynntils.config.utils.add_class_server.display_name=主選單 Class & Server 按
 wynntils.config.utils.add_class_server.description=是否顯示 Class 和 Server 按鈕在主選單？
 wynntils.config.utils.hide_nametags_through_blocks.display_name=隱藏牆後名稱
 wynntils.config.utils.hide_nametags_through_blocks.description=是否隱藏方塊後的名稱？
-wynntils.config.utils.hide_nametag_box.display_name=Hide Nametags' Box
-wynntils.config.utils.hide_nametag_box.description=Should the box around nametags be hidden?
+wynntils.config.utils.hide_nametag_box.display_name=隱藏名稱標籤
+wynntils.config.utils.hide_nametag_box.description=是否隱藏名字旁的名稱標籤？
 wynntils.config.utils.show_armor.display_name=顯示玩家裝備
 wynntils.config.utils.show_armor.description=是否在玩家名稱底下顯示該玩家的裝備？\n\n§8無法顯示合成裝備
 wynntils.config.utils.prevent_mythic.display_name=避免含神話的箱子關閉
 wynntils.config.utils.prevent_mythic.description=是否要避免有神話裝(Mythic)的箱子關閉？
 wynntils.config.utils.prevent_slot_click.display_name=預防上鎖欄位點擊
 wynntils.config.utils.prevent_slot_click.description=是否防止上鎖物品在背包中移動？
-wynntils.config.utils.afk_collision_block.display_name=在掛機時防止玩家相撞 Block Player Collision When AFK
-wynntils.config.utils.afk_collision_block.description=是否防止玩家在掛機時的相撞？Should player collision be blocked when you are AFK?
+wynntils.config.utils.afk_collision_block.display_name=在掛機時防止玩家相撞
+wynntils.config.utils.afk_collision_block.description=是否防止玩家在掛機時的相撞？
 wynntils.config.utils.highlight_on_hotbar.display_name=顯示物品標記於快捷欄中
 wynntils.config.utils.highlight_on_hotbar.description=是否讓物品稀有度在快捷欄中標記？
 
@@ -239,10 +239,10 @@ wynntils.config.utils.item_highlights.threestar_color.description=三星素材�
 wynntils.config.overlay.display_path=外觀
 wynntils.config.overlay.text_shadow.display_name=文字陰影
 wynntils.config.overlay.text_shadow.description=文字陰影該如何顯示？
-wynntils.config.overlay.actionbar_coords.display_name=Action Bar Coordinates
-wynntils.config.overlay.actionbar_coords.description=Should the action bar display your coordinates when there is nothing else to show?
-wynntils.config.overlay.split_coords.display_name=Split Coordinates
-wynntils.config.overlay.split_coords.description=Should the coordinates be shown separately to the action bar?
+wynntils.config.overlay.actionbar_coords.display_name=動作條座標
+wynntils.config.overlay.actionbar_coords.description=是否在動作條沒有其他訊息顯示時顯示你的座標？
+wynntils.config.overlay.split_coords.display_name=座標分隔
+wynntils.config.overlay.split_coords.description=座標與動作條是否分開顯示？
 
 ## OVERLAYS HEALTH CONFIG ##
 wynntils.config.overlay.health.display_path=外觀/生命值
@@ -252,10 +252,10 @@ wynntils.config.overlay.health.animation_speed.display_name=動畫速度
 wynntils.config.overlay.health.animation_speed.description=動畫播放要多快呢？\n\n§8設至 0 可快速顯示
 wynntils.config.overlay.health.text_shadow.display_name=文字陰影
 wynntils.config.overlay.health.text_shadow.description=文字陰影看起來要如何呢？
-wynntils.config.overlay.health.health_vignette.display_name=低生命值暈影
-wynntils.config.overlay.health.health_vignette.description=是否在你低生命值時放置紅色暈影？
-wynntils.config.overlay.health.health_vignette_threshold.display_name=Low Health Threshold
-wynntils.config.overlay.health.health_vignette_threshold.description=At what percentage of health should a red vignette be displayed?
+wynntils.config.overlay.health.health_vignette.display_name=低血量暈影
+wynntils.config.overlay.health.health_vignette.description=是否在你低血量時放置紅色暈影？
+wynntils.config.overlay.health.health_vignette_threshold.display_name=低血量臨界值
+wynntils.config.overlay.health.health_vignette_threshold.description=要血量在多少百分比時放置紅色暈影？
 wynntils.config.overlay.health.health_vignette_effect.display_name=低生命值動畫
 wynntils.config.overlay.health.health_vignette_effect.description=要使用哪一個動畫作為你的低生命值動畫？
 
@@ -308,17 +308,17 @@ wynntils.config.overlay.hotbar.enum.hotbar_texture.wynn=Wynn
 ## OVERLAYS TOAST CONFIG ##
 wynntils.config.overlay.toast.display_path=外觀/通知
 wynntils.config.overlay.toast.enable.display_name=啟用訊息通知
-wynntils.config.overlay.toast.enable.description=Should certain messages be displayed in the form of rolling parchment?
+wynntils.config.overlay.toast.enable.description=是否將一些訊息放入羊皮卷軸顯示？
 wynntils.config.overlay.toast.territory_enter.display_name=啟用區域進入的訊息
-wynntils.config.overlay.toast.territory_enter.description=Should a toast be displayed to inform that you are entering a territory?
+wynntils.config.overlay.toast.territory_enter.description=是否顯示你正在進入地點的通知？
 wynntils.config.overlay.toast.area_discovered.display_name=啟用區域發現的消息
-wynntils.config.overlay.toast.area_discovered.description=Should a toast be displayed to inform that you have discovered an area?
+wynntils.config.overlay.toast.area_discovered.description=是否顯示區域發現的通知？
 wynntils.config.overlay.toast.quest_completed.display_name=啟用任務完成的訊息
-wynntils.config.overlay.toast.quest_completed.description=Should a toast be displayed to inform that you have completed a quest?
-wynntils.config.overlay.toast.discovery_found.display_name=Enable Discovery Found Messages
-wynntils.config.overlay.toast.discovery_found.description=Should a toast be displayed to inform that you have found a secret discovery?
-wynntils.config.overlay.toast.flip.display_name=Flip Toast Messages
-wynntils.config.overlay.toast.flip.description=Should a toast display from the left to right?\n\n§8Some visual glitches may occur if Toast overlay isn't moved to either side of your screen.
+wynntils.config.overlay.toast.quest_completed.description=是否顯示任務完成的通知？
+wynntils.config.overlay.toast.discovery_found.display_name=啟用地點發現的訊息
+wynntils.config.overlay.toast.discovery_found.description=是否顯示任務完成的通知？
+wynntils.config.overlay.toast.flip.display_name=訊息通知反轉
+wynntils.config.overlay.toast.flip.description=是否讓通知訊息有左至右顯示？\n\n§8當通知不是由你螢幕的邊框顯示出來的時候，可能會有一些視覺問題
 
 ## OVERLAYS EXP CONFIG ##
 wynntils.config.overlay.exp.display_path=外觀/經驗值
@@ -494,8 +494,8 @@ wynntils.modules.utilities.display_name=效能
 ########
 
 ## TAB GUI ##
-wynntils.chat.tabgui.generic.required=必設
-wynntils.chat.tabgui.generic.optional=選設
+wynntils.chat.tabgui.generic.required=必填
+wynntils.chat.tabgui.generic.optional=選填
 wynntils.chat.tabgui.button.save=儲存
 wynntils.chat.tabgui.button.save.tooltip_1=點此儲存聊天標籤
 wynntils.chat.tabgui.button.save.tooltip_2=設定
@@ -507,14 +507,14 @@ wynntils.chat.tabgui.button.delete.tooltip_4=無法復原
 wynntils.chat.tabgui.button.close=關閉
 wynntils.chat.tabgui.button.advanced_show=顯示進階設定
 wynntils.chat.tabgui.button.advanced_hide=隱藏進階設定
-wynntils.chat.tabgui.button.low_priority=Low Priority
-wynntils.chat.tabgui.button.low_priority.tooltip_1=If selected, messages
-wynntils.chat.tabgui.button.low_priority.tooltip_2=will attempt to match
-wynntils.chat.tabgui.button.low_priority.tooltip_3=with other tabs first.
+wynntils.chat.tabgui.button.low_priority=低優先
+wynntils.chat.tabgui.button.low_priority.tooltip_1=如果選用此選項，訊息
+wynntils.chat.tabgui.button.low_priority.tooltip_2=會優先發送至其他未選
+wynntils.chat.tabgui.button.low_priority.tooltip_3=擇此選項的頻道。
 wynntils.chat.tabgui.button.low_priority.tooltip_4=
-wynntils.chat.tabgui.button.low_priority.tooltip_5=This will also duplicate
-wynntils.chat.tabgui.button.low_priority.tooltip_6=messages across other
-wynntils.chat.tabgui.button.low_priority.tooltip_7=low priority tabs.
+wynntils.chat.tabgui.button.low_priority.tooltip_5=此選項也會複製其他
+wynntils.chat.tabgui.button.low_priority.tooltip_6=選用此選項的頻道訊息
+wynntils.chat.tabgui.button.low_priority.tooltip_7=
 wynntils.chat.tabgui.button.message_types=訊息種類
 wynntils.chat.tabgui.button.message_type.all=全部
 wynntils.chat.tabgui.button.message_type.all.tooltip_1=訊息種類： 全部
@@ -588,10 +588,10 @@ wynntils.commands.territory.usage=重新定位羅盤至地區。
 wynntils.commands.territory.error.wrong_usage=/territory [名稱] | Ex: /territory Detlas
 wynntils.commands.territory.error.territory_not_valid=未知地點！ 請使用： /territory [名稱] | Ex: /territory Detlas
 wynntils.commands.territory.now_pointing=羅盤正在指向 %s (%o, %o)
-wynntils.commands.territory.compass_warning=\nPlease be sure you know that this command redirects your compass to the middle of the territory.
+wynntils.commands.territory.compass_warning=\n這個指令會將你的羅盤重新定位並指向地點的中央Please be sure you know that this command redirects your compass to the middle of the territory.
 
 ## /token ##
-wynntils.commands.token.usage=Returns your Wynntils auth token
+wynntils.commands.token.usage=Returns your Wynntils auth token返還你原先的 Wynntils 飾品
 wynntils.commands.token.token_text=Wynntils 飾物
 wynntils.commands.token.token_link_hover=點擊這個超連結來註冊
 
@@ -639,14 +639,14 @@ wynntils.core.ui.download.files_left=剩下 %o 個檔案
 ## UPDATE OVERLAY ##
 wynntils.core.ui.update.display_name=更新
 wynntils.core.ui.update.upper_text=Wynntils §av%s - §f%ss left
-wynntils.core.ui.update.build_is_avaliable=§eBuild %s §fis available
-wynntils.core.ui.update.version_is_avaliable=A new update is available §ev%s
-wynntils.core.ui.update.download_question=Download automagically? §a(y/n)
-wynntils.core.ui.update.yes=Yes (y)
-wynntils.core.ui.update.no=No (n)
-wynntils.core.ui.update.updating_to=Updating to %s
-wynntils.core.ui.update.update_downloaded_version=An update to Wynntils (Version %s) has been downloaded and will be applied when the game is restarted.
-wynntils.core.ui.update.update_downloaded_build=An update to Wynntils (Build %s) has been downloaded and will be applied when the game is restarted.
+wynntils.core.ui.update.build_is_avaliable=§e建構號 %s §f已可用
+wynntils.core.ui.update.version_is_avaliable=一個更新可用 §ev%s
+wynntils.core.ui.update.download_question=是否自動下載？ §a(y/n)
+wynntils.core.ui.update.yes=是 (y)
+wynntils.core.ui.update.no=否 (n)
+wynntils.core.ui.update.updating_to=更新至 %s
+wynntils.core.ui.update.update_downloaded_version=已下載一個 Wynntils 更新(%s 版)，此更新將於遊戲重啟後套用。
+wynntils.core.ui.update.update_downloaded_build=已下載一個 Wynntils 更新(建構號 %s)，此更新將於遊戲重啟後套用。
 
 #######
 # MAP #
@@ -654,7 +654,7 @@ wynntils.core.ui.update.update_downloaded_build=An update to Wynntils (Build %s)
 
 ## TOASTS ##
 wynntils.map.toasts.new_map_entry.title=新地圖標記
-wynntils.map.toasts.new_map_entry.body=找到了一個 階級 %s 的箱子!
+wynntils.map.toasts.new_map_entry.body=找到了一個  %s 階的箱子!
 
 ## WORLD MAP UI ##
 wynntils.map.ui.world_map.button.markers=標記
@@ -728,9 +728,9 @@ wynntils.questbook.ui.questbook.search_bar.type=打字即可搜尋
 wynntils.questbook.ui.questbook.search_bar.click=點擊即可搜尋
 wynntils.questbook.ui.questbook.available_items=目前可用物品
 wynntils.questbook.ui.questbook.item_guide=物品指南
-wynntils.questbook.ui.questbook.item_guide.subtitle_1=See all items
-wynntils.questbook.ui.questbook.item_guide.subtitle_2=currently available
-wynntils.questbook.ui.questbook.item_guide.subtitle_3=in the game.
+wynntils.questbook.ui.questbook.item_guide.subtitle_1=查看目前遊戲
+wynntils.questbook.ui.questbook.item_guide.subtitle_2=內的所有可用物品
+wynntils.questbook.ui.questbook.item_guide.subtitle_3=
 wynntils.questbook.ui.questbook.item_guide.subtitle_4=
 wynntils.questbook.ui.questbook.quests.description_1=Here you can see all quests
 wynntils.questbook.ui.questbook.quests.description_2=available to you. You can
@@ -741,15 +741,15 @@ wynntils.questbook.ui.questbook.quests.description_6=by clicking on the two butt
 wynntils.questbook.ui.questbook.quests.description_7=or by scrolling your mouse.
 wynntils.questbook.ui.questbook.quests.description_8=You can pin/unpin a quest
 wynntils.questbook.ui.questbook.quests.description_9=by clicking on it.
-wynntils.questbook.ui.questbook.quests.discovery_hover_1=Hold shift to see Secret Discoveries!
+wynntils.questbook.ui.questbook.quests.discovery_hover_1=Hold shift to see Secret Discoveries!按住 shift 查看
 wynntils.questbook.ui.questbook.quests.discovery_hover_2=Click to see all of your Discoveries!
 wynntils.questbook.ui.questbook.quests.pin=Left click to pin it!
 wynntils.questbook.ui.questbook.quests.unpin=Left click to unpin it!
 wynntils.questbook.ui.questbook.quests.open_on_wiki=Right click to open on the wiki!
-wynntils.questbook.ui.questbook.quests=Quests
-wynntils.questbook.ui.questbook.configs=Configs
+wynntils.questbook.ui.questbook.quests=任務
+wynntils.questbook.ui.questbook.configs=配置
 wynntils.questbook.ui.questbook.class_and_level=%s Level %s
-wynntils.questbook.ui.questbook.in_development=In Development
+wynntils.questbook.ui.questbook.in_development=開發中
 wynntils.questbook.ui.questbook.open_quests.subtitle_1=See and pin all your
 wynntils.questbook.ui.questbook.open_quests.subtitle_2=currently available
 wynntils.questbook.ui.questbook.open_quests.subtitle_3=quests.
@@ -758,8 +758,8 @@ wynntils.questbook.ui.questbook.configuration=Configuration
 wynntils.questbook.ui.questbook.configuration.subtitle_1=Change the settings
 wynntils.questbook.ui.questbook.configuration.subtitle_2=to the way you want.
 wynntils.questbook.ui.questbook.configuration.subtitle_3=
-wynntils.questbook.ui.questbook.configuration.subtitle_4=BETA VERSION
-wynntils.questbook.ui.questbook.overlay_configuration=Overlay Configuration
+wynntils.questbook.ui.questbook.configuration.subtitle_4=測試版
+wynntils.questbook.ui.questbook.overlay_configuration=版面配置
 wynntils.questbook.ui.questbook.overlay_configuration.subtitle_1=Change position
 wynntils.questbook.ui.questbook.overlay_configuration.subtitle_2=and enable/disable
 wynntils.questbook.ui.questbook.overlay_configuration.subtitle_3=the various
