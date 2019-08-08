@@ -309,9 +309,9 @@ wynntils.config.overlay.hotbar.enum.hotbar_texture.wynn=Wynn
 wynntils.config.overlay.toast.display_path=外觀/通知
 wynntils.config.overlay.toast.enable.display_name=啟用訊息通知
 wynntils.config.overlay.toast.enable.description=Should certain messages be displayed in the form of rolling parchment?
-wynntils.config.overlay.toast.territory_enter.display_name=Enable Territory Enter Messages
+wynntils.config.overlay.toast.territory_enter.display_name=啟用區域進入的訊息
 wynntils.config.overlay.toast.territory_enter.description=Should a toast be displayed to inform that you are entering a territory?
-wynntils.config.overlay.toast.area_discovered.display_name=啟用發現區域的消息
+wynntils.config.overlay.toast.area_discovered.display_name=啟用區域發現的消息
 wynntils.config.overlay.toast.area_discovered.description=Should a toast be displayed to inform that you have discovered an area?
 wynntils.config.overlay.toast.quest_completed.display_name=啟用任務完成的訊息
 wynntils.config.overlay.toast.quest_completed.description=Should a toast be displayed to inform that you have completed a quest?
@@ -321,48 +321,48 @@ wynntils.config.overlay.toast.flip.display_name=Flip Toast Messages
 wynntils.config.overlay.toast.flip.description=Should a toast display from the left to right?\n\n§8Some visual glitches may occur if Toast overlay isn't moved to either side of your screen.
 
 ## OVERLAYS EXP CONFIG ##
-wynntils.config.overlay.exp.display_path=Overlays/Experience
-wynntils.config.overlay.exp.texture.display_name=EXP Texture
-wynntils.config.overlay.exp.texture.description=What texture should be used for the EXP bar?
-wynntils.config.overlay.exp.animation_speed.display_name=Animation Speed
-wynntils.config.overlay.exp.animation_speed.description=How fast should the animation be played?\n\n§8Set this to 0 for it to display instantly.
-wynntils.config.overlay.exp.text_shadow.display_name=Text Shadow
-wynntils.config.overlay.exp.text_shadow.description=What should the text shadow look like?
+wynntils.config.overlay.exp.display_path=外觀/經驗值
+wynntils.config.overlay.exp.texture.display_name=經驗條材質
+wynntils.config.overlay.exp.texture.description=經驗條要用什麼材質呢？
+wynntils.config.overlay.exp.animation_speed.display_name=動畫速度
+wynntils.config.overlay.exp.animation_speed.description=動畫播放要多快呢？\n\n§8設至 0 可快速顯示
+wynntils.config.overlay.exp.text_shadow.display_name=文字陰影
+wynntils.config.overlay.exp.text_shadow.description=文字陰影看起來要如何呢？
 
 ## OVERLAYS EXP EXP TEXTURES ENUM CONFIG ##
 wynntils.config.overlay.exp.enum.exp_texture.wynn=Wynn
-wynntils.config.overlay.exp.enum.exp_texture.liquid=Liquid
-wynntils.config.overlay.exp.enum.exp_texture.emerald=Emerald
+wynntils.config.overlay.exp.enum.exp_texture.liquid=液態
+wynntils.config.overlay.exp.enum.exp_texture.emerald=綠寶石
 wynntils.config.overlay.exp.enum.exp_texture.a=A
 wynntils.config.overlay.exp.enum.exp_texture.b=B
 wynntils.config.overlay.exp.enum.exp_texture.c=C
 
 ## OVERLAYS BUBBLES CONFIG ##
-wynntils.config.overlay.bubbles.display_path=Overlays/Bubbles
-wynntils.config.overlay.bubbles.texture.display_name=Bubbles Texture
+wynntils.config.overlay.bubbles.display_path=外觀/水下氣泡
+wynntils.config.overlay.bubbles.texture.display_name=氣泡條材質
 wynntils.config.overlay.bubbles.texture.description=What texture should be used for the EXP bar when it acts as the air meter?
-wynntils.config.overlay.bubbles.animation_speed.display_name=Animation Speed
-wynntils.config.overlay.bubbles.animation_speed.description=How fast should the animation be played?\n\n§8Set this to 0 for it to display instantly.
-wynntils.config.overlay.bubbles.text_shadow.display_name=Text Shadow
-wynntils.config.overlay.bubbles.text_shadow.description=What should the text shadow look like?
-wynntils.config.overlay.bubbles.drowning_vignette.display_name=Bubble Vignette
-wynntils.config.overlay.bubbles.drowning_vignette.description=Should a blue vignette be displayed when you're underwater?
+wynntils.config.overlay.bubbles.animation_speed.display_name=動畫速度
+wynntils.config.overlay.bubbles.animation_speed.description=動畫播放要多快呢？\n\n§8設至 0 可快速顯示
+wynntils.config.overlay.bubbles.text_shadow.display_name=文字陰影
+wynntils.config.overlay.bubbles.text_shadow.description=文字陰影看起來要如何呢？
+wynntils.config.overlay.bubbles.drowning_vignette.display_name=氣泡暈影
+wynntils.config.overlay.bubbles.drowning_vignette.description=是否在水下時使用藍色暈影？
 
 ## OVERLAYS BUBBLES BUBBLE TEXTURE ENUM CONFIG ##
 wynntils.config.overlay.bubbles.enum.bubble_texture.wynn=Wynn
-wynntils.config.overlay.bubbles.enum.bubble_texture.liquid=Liquid
+wynntils.config.overlay.bubbles.enum.bubble_texture.liquid=液態
 # Misspelling in code is replicated here for consistency
-wynntils.config.overlay.bubbles.enum.bubble_texture.saphire=Sapphire
+wynntils.config.overlay.bubbles.enum.bubble_texture.saphire=藍寶石
 wynntils.config.overlay.bubbles.enum.bubble_texture.a=A
 wynntils.config.overlay.bubbles.enum.bubble_texture.b=B
 wynntils.config.overlay.bubbles.enum.bubble_texture.c=C
 
 ## OVERLAYS LEVELING CONFIG ##
-wynntils.config.overlay.leveling.display_path=Overlays/Leveling
-wynntils.config.overlay.leveling.text.display_name=Current Text
-wynntils.config.overlay.leveling.text.description=How should the leveling text be displayed?
-wynntils.config.overlay.leveling.text_shadow.display_name=Text Shadow
-wynntils.config.overlay.leveling.text_shadow.description=What should the text shadow look like?
+wynntils.config.overlay.leveling.display_path=外觀/升級
+wynntils.config.overlay.leveling.text.display_name=當前文字
+wynntils.config.overlay.leveling.text.description=升級要顯示什麼文字呢？
+wynntils.config.overlay.leveling.text_shadow.display_name=文字陰影
+wynntils.config.overlay.leveling.text_shadow.description=文字陰影看起來要如何呢？
 
 ## OVERLAYS TICKER CONFIG ##
 wynntils.config.overlay.ticker.display_path=Overlays/Update Ticker
@@ -442,32 +442,32 @@ wynntils.config.overlay.ticker.territory.music_change_format.display_name=Music 
 wynntils.config.overlay.ticker.territory.music_change_format.description=How should the format of the music change ticker messages be displayed?
 
 ## OVERLAYS WARTIMER CONFIG ##
-wynntils.config.overlay.wartimer.display_path=Overlays/War Timer
-wynntils.config.overlay.wartimer.text_shadow.display_name=Text Shadow
-wynntils.config.overlay.wartimer.text_shadow.description=What should the text shadow look like?
+wynntils.config.overlay.wartimer.display_path=外觀/公會戰計時器
+wynntils.config.overlay.wartimer.text_shadow.display_name=文字陰影
+wynntils.config.overlay.wartimer.text_shadow.description=文字陰影看起來要如何呢？
 
 ## OVERLAYS TERRITORY FEED CONFIG ##
-wynntils.config.overlay.territoryfeed.display_path=Overlays/Territory Feed
-wynntils.config.overlay.territoryfeed.enabled.display_name=Territory Feed
-wynntils.config.overlay.territoryfeed.enabled.description=Should the territory feed be displayed?
-wynntils.config.overlay.territoryfeed.animation_length.display_name=Animation Length
-wynntils.config.overlay.territoryfeed.animation_length.description=How long (in seconds) should messages on the territory feed be displayed?
-wynntils.config.overlay.territoryfeed.display_mode.display_name=Territory Messages Mode
-wynntils.config.overlay.territoryfeed.display_mode.description=What messages should be displayed in the territory feed?\n\nNormal: Display all territory messages.\n\nDistinguish Own Guild: Display all territory messages, but messages relating to your guild will be displayed in different colors. (§2Gained territory §r& §4lost territory§r)\n\nOnly Own Guild: Display only territory messages that relate to your guild.
-wynntils.config.overlay.territoryfeed.short_message.display_name=Shorten Messages
-wynntils.config.overlay.territoryfeed.short_message.description=Should territory feed messages be shortened?
-wynntils.config.overlay.territoryfeed.guild_tag.display_name=Use Guild Tags
-wynntils.config.overlay.territoryfeed.guild_tag.description=Should guild tags be displayed rather than names?
+wynntils.config.overlay.territoryfeed.display_path=外觀/領地通知
+wynntils.config.overlay.territoryfeed.enabled.display_name=領地通知
+wynntils.config.overlay.territoryfeed.enabled.description=是否顯示領地通知？
+wynntils.config.overlay.territoryfeed.animation_length.display_name=動畫長度
+wynntils.config.overlay.territoryfeed.animation_length.description=領地通知要顯示多長的時間呢？(單位：秒)
+wynntils.config.overlay.territoryfeed.display_mode.display_name=領地訊息的模式
+wynntils.config.overlay.territoryfeed.display_mode.description=領地通知要顯示什麼樣的訊息？\n\n一般：顯示所有領地訊息\n\n強調所在公會：顯示所有領地訊息，但用顏色標記與你的公會相關的訊息(§2佔領領地§r& §4失去領地§r)\n\n只有所在公會：只顯示與你的公會相關的訊息
+wynntils.config.overlay.territoryfeed.short_message.display_name=訊息簡寫
+wynntils.config.overlay.territoryfeed.short_message.description=是否簡寫領地訊息？
+wynntils.config.overlay.territoryfeed.guild_tag.display_name=使用公會縮寫
+wynntils.config.overlay.territoryfeed.guild_tag.description=是否使用公會縮寫取代全名？
 
 ## OVERLAYS TERRITORY FEED DISPLAY MODE ENUM CONFIG ##
-wynntils.config.overlay.territoryfeed.enum.display_mode.normal=Normal
-wynntils.config.overlay.territoryfeed.enum.display_mode.distinguish_own_guild=Distinguish own guild
-wynntils.config.overlay.territoryfeed.enum.display_mode.only_own_guild=Only own guild
+wynntils.config.overlay.territoryfeed.enum.display_mode.normal=一般
+wynntils.config.overlay.territoryfeed.enum.display_mode.distinguish_own_guild=強調所在公會
+wynntils.config.overlay.territoryfeed.enum.display_mode.only_own_guild=只有所在公會
 
 ## OTHER CONFIG TEXT SHADOW ENUM ##
-wynntils.config.other.enum.text_shadow.none=None
-wynntils.config.other.enum.text_shadow.normal=Normal
-wynntils.config.other.enum.text_shadow.outline=Outline
+wynntils.config.other.enum.text_shadow.none=無
+wynntils.config.other.enum.text_shadow.normal=一般
+wynntils.config.other.enum.text_shadow.outline=外部
 
 ## OTHER CONFIG ##
 wynntils.config.other.reset=重置
@@ -798,7 +798,7 @@ wynntils.utilities.events.check_daily=§7每日獎勵箱 §f已可領取！
 wynntils.utilities.overlays.actionbar_helper.display_name=ActionBar Helper
 
 ## BUBBLES OVERLAY ##
-wynntils.utilities.overlays.bubbles.display_name=Bubbles Overlay
+wynntils.utilities.overlays.bubbles.display_name=氣泡條外觀
 
 ## EXPERIENCE BAR OVERLAY ##
 wynntils.utilities.overlays.experience_bar.display_name=經驗條
@@ -863,13 +863,13 @@ wynntils.utilities.overlays.health_bar.display_name=生命值
 wynntils.utilities.overlays.hotbar.display_name=快捷欄
 
 ## LEVELING OVERLAY ##
-wynntils.utilities.overlays.leveling.display_name=升級輔助
+wynntils.utilities.overlays.leveling.display_name=升級輔助器
 
 ## MANA BAR OVERLAY ##
 wynntils.utilities.overlays.mana_bar.display_name=魔力條
 
 ## TERRITORY FEED OVERLAY ##
-wynntils.utilities.overlays.territory_feed.display_name=Territory Feed
+wynntils.utilities.overlays.territory_feed.display_name=領地通知
 wynntils.utilities.overlays.territory_feed.attacked=[%1$s] 的領地 %2$s 正被 [%3$s] 進攻中！
 wynntils.utilities.overlays.territory_feed.defended=[%1$s]'s attack on [%2$s]'s territory %3$s was defended!
 wynntils.utilities.overlays.territory_feed.captured=[%1$s] has captured %2$s from [%3$s] 
