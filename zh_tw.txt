@@ -156,13 +156,13 @@ wynntils.config.utils.prevent_slot_click.display_name=預防上鎖欄位點擊
 wynntils.config.utils.prevent_slot_click.description=是否防止上鎖物品在背包中移動？
 wynntils.config.utils.afk_collision_block.display_name=在掛機時防止玩家相撞 Block Player Collision When AFK
 wynntils.config.utils.afk_collision_block.description=是否防止玩家在掛機時的相撞？Should player collision be blocked when you are AFK?
-wynntils.config.utils.highlight_on_hotbar.display_name=顯示快捷欄中物品Display Item Highlighting on Hotbar
-wynntils.config.utils.highlight_on_hotbar.description=Should the highlight of item rarities be displayed on the hotbar?
+wynntils.config.utils.highlight_on_hotbar.display_name=顯示物品標記於快捷欄中
+wynntils.config.utils.highlight_on_hotbar.description=是否讓物品稀有度在快捷欄中標記？
 
 ## UTILITIES WAR CONFIG ##
-wynntils.config.utils.war.display_path=戰爭
+wynntils.config.utils.war.display_path=公會戰
 wynntils.config.utils.war.entity_filter.display_name=實體過濾器
-wynntils.config.utils.war.entity_filter.description=是否隱藏戰爭中的怪物名稱？
+wynntils.config.utils.war.entity_filter.description=是否隱藏公會戰中的怪物名稱？
 wynntils.config.utils.war.warrer_health_bar.display_name=玩家生命條顯示
 wynntils.config.utils.war.warrer_health_bar.description=是否在公會戰時在其他玩家頭上顯示他們的生命條？
 
@@ -249,71 +249,71 @@ wynntils.config.overlay.health.display_path=外觀/生命值
 wynntils.config.overlay.health.texture.display_name=生命條材質
 wynntils.config.overlay.health.texture.description=生命條要用什麼材質呢？
 wynntils.config.overlay.health.animation_speed.display_name=動畫速度
-wynntils.config.overlay.health.animation_speed.description=動畫播放要多快呢？\n\n§8設至 0 可立即顯示
+wynntils.config.overlay.health.animation_speed.description=動畫播放要多快呢？\n\n§8設至 0 可快速顯示
 wynntils.config.overlay.health.text_shadow.display_name=文字陰影
 wynntils.config.overlay.health.text_shadow.description=文字陰影看起來要如何呢？
 wynntils.config.overlay.health.health_vignette.display_name=低生命值暈影
 wynntils.config.overlay.health.health_vignette.description=是否在你低生命值時放置紅色暈影？
 wynntils.config.overlay.health.health_vignette_threshold.display_name=Low Health Threshold
 wynntils.config.overlay.health.health_vignette_threshold.description=At what percentage of health should a red vignette be displayed?
-wynntils.config.overlay.health.health_vignette_effect.display_name=Low Health Animation
-wynntils.config.overlay.health.health_vignette_effect.description=Which animation should be used for the low health indicator?
+wynntils.config.overlay.health.health_vignette_effect.display_name=低生命值動畫
+wynntils.config.overlay.health.health_vignette_effect.description=要使用哪一個動畫作為你的低生命值動畫？
 
 ## OVERLAYS HEALTH HEALTH TEXTURE ENUM CONFIG ##
 wynntils.config.overlay.health.enum.health_texture.wynn=Wynn
-wynntils.config.overlay.health.enum.health_texture.grune=Grune
-wynntils.config.overlay.health.enum.health_texture.aether=Aether
-wynntils.config.overlay.health.enum.health_texture.skull=Skull
-wynntils.config.overlay.health.enum.health_texture.skyrim=Skyrim
+wynntils.config.overlay.health.enum.health_texture.grune=綠條
+wynntils.config.overlay.health.enum.health_texture.aether=迷霧
+wynntils.config.overlay.health.enum.health_texture.skull=龍頭
+wynntils.config.overlay.health.enum.health_texture.skyrim=天界
 wynntils.config.overlay.health.enum.health_texture.a=A
 wynntils.config.overlay.health.enum.health_texture.b=B
 wynntils.config.overlay.health.enum.health_texture.c=C
 wynntils.config.overlay.health.enum.health_texture.d=D
 
 ## OVERLAYS HEALTH HEALTH VIGNETTE EFFECT ENUM CONFIG ##
-wynntils.config.overlay.health.enum.health_vignette_effect.pulse=Pulse
-wynntils.config.overlay.health.enum.health_vignette_effect.static=Static
-wynntils.config.overlay.health.enum.health_vignette_effect.growing=Growing
+wynntils.config.overlay.health.enum.health_vignette_effect.pulse=脈衝
+wynntils.config.overlay.health.enum.health_vignette_effect.static=靜態
+wynntils.config.overlay.health.enum.health_vignette_effect.growing=漸變
 
 ## OVERLAYS MANA CONFIG ##
-wynntils.config.overlay.mana.display_path=Overlays/Mana
-wynntils.config.overlay.mana.texture.display_name=Mana Texture
-wynntils.config.overlay.mana.texture.description=What texture should be used for the mana bar?
-wynntils.config.overlay.mana.animation_speed.display_name=Animation Speed
-wynntils.config.overlay.mana.animation_speed.description=How fast should the animation be played?\n\n§8Set this to 0 for it to display instantly.
-wynntils.config.overlay.mana.text_shadow.display_name=Text Shadow
-wynntils.config.overlay.mana.text_shadow.description=What should the text shadow look like?
+wynntils.config.overlay.mana.display_path=外觀/魔力
+wynntils.config.overlay.mana.texture.display_name=魔力條材質
+wynntils.config.overlay.mana.texture.description=生命條要用什麼材質呢？
+wynntils.config.overlay.mana.animation_speed.display_name=動畫速度
+wynntils.config.overlay.mana.animation_speed.description=動畫播放要多快呢？\n\n§8設至 0 可快速顯示
+wynntils.config.overlay.mana.text_shadow.display_name=文字陰影
+wynntils.config.overlay.mana.text_shadow.description=文字陰影看起來要如何呢？
 
 ## OVERLAYS HEALTH HEALTH TEXTURE ENUM CONFIG ##
 wynntils.config.overlay.mana.enum.mana_texture.wynn=Wynn
-wynntils.config.overlay.mana.enum.mana_texture.brune=Brune
-wynntils.config.overlay.mana.enum.mana_texture.aether=Aether
-wynntils.config.overlay.mana.enum.mana_texture.skull=Skull
-wynntils.config.overlay.mana.enum.mana_texture.inverse=Inverse
-wynntils.config.overlay.mana.enum.mana_texture.skyrim=Skyrim
+wynntils.config.overlay.mana.enum.mana_texture.brune=棕條
+wynntils.config.overlay.mana.enum.mana_texture.aether=迷霧
+wynntils.config.overlay.mana.enum.mana_texture.skull=龍頭
+wynntils.config.overlay.mana.enum.mana_texture.inverse=對比
+wynntils.config.overlay.mana.enum.mana_texture.skyrim=天界
 wynntils.config.overlay.mana.enum.mana_texture.a=A
 wynntils.config.overlay.mana.enum.mana_texture.b=B
 wynntils.config.overlay.mana.enum.mana_texture.c=C
 wynntils.config.overlay.mana.enum.mana_texture.d=D
 
 ## OVERLAYS HOTBAR CONFIG ##
-wynntils.config.overlay.hotbar.display_path=Overlays/Hotbar
-wynntils.config.overlay.hotbar.texture.display_name=Hotbar Texture
-wynntils.config.overlay.hotbar.texture.description=What texture should be used for the hotbar?
+wynntils.config.overlay.hotbar.display_path=外觀/快捷欄
+wynntils.config.overlay.hotbar.texture.display_name=快捷欄材質
+wynntils.config.overlay.hotbar.texture.description=快捷欄要用什麼材質呢？
 
 ## OVERLAYS HOTBAR HOTBAR TEXTURE ENUM CONFIG ##
-wynntils.config.overlay.hotbar.enum.hotbar_texture.resource_pack=Resource Pack
+wynntils.config.overlay.hotbar.enum.hotbar_texture.resource_pack=材質包
 wynntils.config.overlay.hotbar.enum.hotbar_texture.wynn=Wynn
 
 ## OVERLAYS TOAST CONFIG ##
-wynntils.config.overlay.toast.display_path=Overlays/Toasts
-wynntils.config.overlay.toast.enable.display_name=Enable Toast Messages
+wynntils.config.overlay.toast.display_path=外觀/通知
+wynntils.config.overlay.toast.enable.display_name=啟用訊息通知
 wynntils.config.overlay.toast.enable.description=Should certain messages be displayed in the form of rolling parchment?
 wynntils.config.overlay.toast.territory_enter.display_name=Enable Territory Enter Messages
 wynntils.config.overlay.toast.territory_enter.description=Should a toast be displayed to inform that you are entering a territory?
 wynntils.config.overlay.toast.area_discovered.display_name=啟用發現區域的消息
 wynntils.config.overlay.toast.area_discovered.description=Should a toast be displayed to inform that you have discovered an area?
-wynntils.config.overlay.toast.quest_completed.display_name=啟用任務達成的訊息
+wynntils.config.overlay.toast.quest_completed.display_name=啟用任務完成的訊息
 wynntils.config.overlay.toast.quest_completed.description=Should a toast be displayed to inform that you have completed a quest?
 wynntils.config.overlay.toast.discovery_found.display_name=Enable Discovery Found Messages
 wynntils.config.overlay.toast.discovery_found.description=Should a toast be displayed to inform that you have found a secret discovery?
