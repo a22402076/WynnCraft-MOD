@@ -365,26 +365,26 @@ wynntils.config.overlay.leveling.text_shadow.display_name=文字陰影
 wynntils.config.overlay.leveling.text_shadow.description=文字陰影看起來要如何呢？
 
 ## OVERLAYS TICKER CONFIG ##
-wynntils.config.overlay.ticker.display_path=外觀/狀態更新間隔
+wynntils.config.overlay.ticker.display_path=外觀/狀態更新
 wynntils.config.overlay.ticker.message_limit.display_name=訊息上限
 wynntils.config.overlay.ticker.message_limit.description=狀態更新表要以幾條訊息為上限？
 wynntils.config.overlay.ticker.align_right.display_name=文字 - 靠右
 wynntils.config.overlay.ticker.align_right.description=文字是否要靠右對期？
-wynntils.config.overlay.ticker.expiry_time.display_name=Message Expiry Time
-wynntils.config.overlay.ticker.expiry_time.description=How long (in seconds) should a ticker message remain on the screen?
-wynntils.config.overlay.ticker.fadeout_time.display_name=Message Fadeout Animation
-wynntils.config.overlay.ticker.fadeout_time.description=How long should the fadeout animation be played?
+wynntils.config.overlay.ticker.expiry_time.display_name=文字消失間隔
+wynntils.config.overlay.ticker.expiry_time.description=狀態訊息要在螢幕上停留多久？(單位：秒)
+wynntils.config.overlay.ticker.fadeout_time.display_name=訊息淡出動畫
+wynntils.config.overlay.ticker.fadeout_time.description=淡出動畫要播放多長呢？
 wynntils.config.overlay.ticker.invert_growth.display_name=Invert Growth
 wynntils.config.overlay.ticker.invert_growth.description=Should the way ticker messages appear be inverted?
-wynntils.config.overlay.ticker.max_message_length.display_name=Max Message Length
+wynntils.config.overlay.ticker.max_message_length.display_name=訊息長度上限
 wynntils.config.overlay.ticker.max_message_length.description=What should the maximum length of messages in the game-update-ticker be?\n\n§8Messages longer than this set value will be truncated. Set this to 0 for no maximum length.
-wynntils.config.overlay.ticker.text_shadow.display_name=Text Shadow
-wynntils.config.overlay.ticker.text_shadow.description=What should the text shadow look like?
+wynntils.config.overlay.ticker.text_shadow.display_name=文字陰影
+wynntils.config.overlay.ticker.text_shadow.description=文字陰影看起來要如何呢？
 wynntils.config.overlay.ticker.new_message_override.display_name=New Message Override
 wynntils.config.overlay.ticker.new_message_override.description=Should new messages force out the oldest previous messages?\n\n§8If disabled, ticker messages will be queued and appear when a previous message disappears.
 
 ## OVERLAYS TICKER EXP CONFIG ##
-wynntils.config.overlay.ticker.exp.display_path=Overlays/Update Ticker/Experience
+wynntils.config.overlay.ticker.exp.display_path=外觀/狀態更新/經驗值
 wynntils.config.overlay.ticker.exp.enable.display_name=Enable EXP Messages
 wynntils.config.overlay.ticker.exp.enable.description=Should EXP messages be displayed in the game-update-ticker?
 wynntils.config.overlay.ticker.exp.update_rate.display_name=EXP Message Update Rate
