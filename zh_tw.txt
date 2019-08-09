@@ -365,9 +365,9 @@ wynntils.config.overlay.leveling.text_shadow.display_name=文字陰影
 wynntils.config.overlay.leveling.text_shadow.description=文字陰影看起來要如何呢？
 
 ## OVERLAYS TICKER CONFIG ##
-wynntils.config.overlay.ticker.display_path=Overlays/Update Ticker
-wynntils.config.overlay.ticker.message_limit.display_name=Message Limit
-wynntils.config.overlay.ticker.message_limit.description=What should the maximum amount of ticker messages displayed in the game-update-list be?
+wynntils.config.overlay.ticker.display_path=外觀/狀態更新間隔
+wynntils.config.overlay.ticker.message_limit.display_name=訊息上限
+wynntils.config.overlay.ticker.message_limit.description=狀態更新表要以幾條訊息為上限？
 wynntils.config.overlay.ticker.align_right.display_name=Align Text - Right
 wynntils.config.overlay.ticker.align_right.description=Should the text align along the right side?
 wynntils.config.overlay.ticker.expiry_time.display_name=Message Expiry Time
