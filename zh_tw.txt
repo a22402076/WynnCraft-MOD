@@ -381,7 +381,7 @@ wynntils.config.overlay.ticker.max_message_length.description=狀態更新欄的
 wynntils.config.overlay.ticker.text_shadow.display_name=文字陰影
 wynntils.config.overlay.ticker.text_shadow.description=文字陰影看起來要如何呢？
 wynntils.config.overlay.ticker.new_message_override.display_name=新訊息覆蓋
-wynntils.config.overlay.ticker.new_message_override.description=Should new messages force out the oldest previous messages?\n\n§8If disabled, ticker messages will be queued and appear when a previous message disappears.
+wynntils.config.overlay.ticker.new_message_override.description=是否讓新訊息覆蓋最早的訊息？\n\n§8如果將此關閉，狀態訊息會在舊訊息消失時排列顯示。
 
 ## OVERLAYS TICKER EXP CONFIG ##
 wynntils.config.overlay.ticker.exp.display_path=外觀/狀態更新欄/經驗值
@@ -588,10 +588,10 @@ wynntils.commands.territory.usage=重新定位羅盤至地區。
 wynntils.commands.territory.error.wrong_usage=/territory [名稱] | Ex: /territory Detlas
 wynntils.commands.territory.error.territory_not_valid=未知地點！ 請使用： /territory [名稱] | Ex: /territory Detlas
 wynntils.commands.territory.now_pointing=羅盤正在指向 %s (%o, %o)
-wynntils.commands.territory.compass_warning=\n這個指令會將你的羅盤重新定位並指向地點的中央Please be sure you know that this command redirects your compass to the middle of the territory.
+wynntils.commands.territory.compass_warning=\n這個指令會將你的羅盤重新定位並指向地點的中央。
 
 ## /token ##
-wynntils.commands.token.usage=Returns your Wynntils auth token返還你原先的 Wynntils 飾品
+wynntils.commands.token.usage=返還你原先的 Wynntils 飾品
 wynntils.commands.token.token_text=Wynntils 飾物
 wynntils.commands.token.token_link_hover=點擊這個超連結來註冊
 
@@ -638,7 +638,7 @@ wynntils.core.ui.download.files_left=剩下 %o 個檔案
 
 ## UPDATE OVERLAY ##
 wynntils.core.ui.update.display_name=更新
-wynntils.core.ui.update.upper_text=Wynntils §av%s - §f%ss left
+wynntils.core.ui.update.upper_text=Wynntils §av%s - §f%ss 剩下
 wynntils.core.ui.update.build_is_avaliable=§e建構號 %s §f已可用
 wynntils.core.ui.update.version_is_avaliable=一個更新可用 §ev%s
 wynntils.core.ui.update.download_question=是否自動下載？ §a(y/n)
